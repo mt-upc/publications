@@ -100,7 +100,7 @@ def remove_latex_chars(text) -> str:
     return text.translate(str.maketrans('', '', "{}"))
 
 def get_args():
-    parser = argparse.ArgumentParser(description='Filter out sentences')
+    parser = argparse.ArgumentParser()
     parser.add_argument('-i', '--input-file', type=str, required=True, help='Input .bib file')
     parser.add_argument('-o', '--output-file', type=str, required=True, help='Output .html file ready to be copied & pasted to the Publications page')
     return parser.parse_args()
