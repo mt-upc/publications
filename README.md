@@ -9,7 +9,7 @@ Repository dedicated to the [MT-UPC publication website](https://mt.cs.upc.edu/p
 1. Add new or update existing bib entries in the `publication_files/publications.bib`.
 2. Generate `publication_files/publications.html` by running the script:
 ```
-python bib2html.py \
+python convert_bib.py \
     --i publication_files/publications.bib \
     --o publication_files/publications.html
 ```
