@@ -5,6 +5,7 @@ from operator import itemgetter
 from pybtex.database import parse_file
 from pybtex.richtext import Text
 from tqdm import tqdm
+from pathlib import Path
 
 months_abbr = {month.lower(): index for index, month in enumerate(calendar.month_abbr) if month}
 months_full = {month.lower(): index for index, month in enumerate(calendar.month_name) if month}
@@ -96,13 +97,55 @@ def save_html(html_file, citations):
             out_file.write('\t</div>\n')
             out_file.write('</div>\n')
 
+def save_md(md_file, citations):
+    with open(md_file, 'w') as out_file:
+        curr_year = 0
+        sorted_citations = sorted(citations, key=lambda k: (-k['year'], -k['month'], k['first_author']))
+        
+        for element in tqdm(sorted_citations):
+            if curr_year != element['year']:
+                if curr_year != 0:
+                    out_file.write('\n\n')
+                curr_year = element['year']
+                out_file.write('### {}\n\n'.format(curr_year))
+
+            out_file.write('**_{}_**  \n'.format(element['citation'].authors))
+            if element['citation'].url:
+                title = remove_latex_chars(element['citation'].title)
+                url = element['citation'].url
+                out_file.write('**[{}]({})**  \n'.format(title, url))
+            else:
+                out_file.write('**{}**  \n'.format(title))
+            if element['citation'].journal:
+                journal = remove_latex_chars(element['citation'].journal)
+                if element['citation'].volume:
+                    journal += ', ' + element['citation'].volume
+                journal += ' (' + element['citation'].year + ')'
+                if element['citation'].pages:
+                    journal += ', ' + element['citation'].pages
+                out_file.write('*{}*'.format(journal))
+            if element['citation'].booktitle:
+                conference = remove_latex_chars(element['citation'].booktitle)
+                conference += ' (' + element['citation'].year + ')'
+                out_file.write('*{}*'.format(conference))
+            out_file.write('\n\n')
+
+def save(output_file, citations):
+    extension = Path(output_file).suffix
+    if extension == '.html':
+        save_html(output_file, citations)
+    elif extension == '.md':
+        save_md(output_file, citations)
+    else:
+        raise ValueError("The accepted output file formats are 'html' and 'md'.")
+
 def remove_latex_chars(text) -> str:
     return text.translate(str.maketrans('', '', "{}"))
 
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-i', '--input-file', type=str, required=True, help='Input .bib file')
-    parser.add_argument('-o', '--output-file', type=str, required=True, help='Output .html file ready to be copied & pasted to the Publications page')
+    parser.add_argument('-o', '--output-file', type=str, required=True, help='Output .html/.md file')
     return parser.parse_args()
 
 def main():
@@ -112,7 +155,7 @@ def main():
     print('Generating %i citations...' % len(bib_data.entries))
     citations = generate_citations(bib_data)
     print("Saving %s file..." % args.output_file)
-    save_html(args.output_file, citations)
+    save(args.output_file, citations)
 
 if __name__ == '__main__':
     main()
