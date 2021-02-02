@@ -27,8 +27,10 @@ jobs:
           rm $tmp_file
       - name: Push Markdown file to the repository
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add publications.md
-          git commit -m "Create Markdown automatically"
-          git push
+          if [[ `git status --porcelain publications.md` ]]; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add publications.md
+            git commit -m "Create Markdown automatically"
+            git push
+          fi
