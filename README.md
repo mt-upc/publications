@@ -3,7 +3,7 @@
 Repository dedicated to the [MT-UPC publication website](https://mt.cs.upc.edu/publications). Helps to create and maintain publications and how they are displayed on the webpage.
 
 ### Dependencies
-```pip install pybtex```
+```pip install -r requirements.txt```
 
 ### Execution
 1. Add new or update existing bib entries in the `publication_files/publications.bib`.
