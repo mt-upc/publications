@@ -1,0 +1,34 @@
+name: Generate Markdown
+
+on: [push, pull_request]
+
+jobs:
+  generate-md:
+    name: Generate Markdown from bib
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Set up Python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r ./src/requirements.txt
+      - name: Convert bib to markdown
+        run: |
+          tmp_file=$(mktemp --suffix=.bib)
+          cat $(find . -name \*.bib) > $tmp_file
+          python ./src/convert_bib.py \
+            -i $tmp_file \
+            -o publications.md
+          rm $tmp_file
+      - name: Push Markdown file to the repository
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add publications.md
+          git commit -m "Create Markdown automatically"
+          git push
