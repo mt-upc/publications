@@ -104,7 +104,7 @@ def save_html(html_file, citations):
             out_file.write('\t<div class="h-row-container gutters-row-lg-1 gutters-row-md-1 gutters-row-0 gutters-row-v-lg-1 gutters-row-v-md-1 gutters-row-v-1 style-641 style-local-2180-c27 position-relative">\n')
             out_file.write('\t\t<div style="color: #778899 !important;"><strong>{}</strong></div>\n'.format(element['citation'].authors))
             if element['citation'].url:
-                url, title = get_formatted_title(element['citation'])
+                url, title = get_formatted_title(element['citation'], True)
                 out_file.write('\t\t<div><a href={} target="_blank"><strong>{}</strong></a></div>\n'.format(url, title))
             else:
                 out_file.write('\t\t<div>{}</div>\n'.format(element['citation'].title))
