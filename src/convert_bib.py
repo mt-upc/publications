@@ -36,9 +36,9 @@ class Citation(object):
         self.bibtex = bib_entry.to_string('bibtex')
 
     def get_authors(self, persons) -> str:
-        return str(', '.join(author for author in self.get_authors_list(persons)))
+        return str(', '.join(author for author in self.__get_authors_list(persons)))
     
-    def get_authors_list(self, persons) -> list:
+    def __get_authors_list(self, persons) -> list:
         authors = []
         for person in persons:
             author = person.rich_first_names
@@ -59,12 +59,39 @@ def generate_citations(bib_data) -> list:
         citations.append(citation_dict)
     return citations
 
+def sort_citations(citations):
+    return sorted(citations, key=lambda k: (-k['year'], -k['month'], k['first_author']))
+
+def remove_latex_chars(text) -> str:
+    return text.translate(str.maketrans('', '', "{}"))
+
+def get_formatted_title(element, to_html=False):
+    title = remove_latex_chars(element.title)
+    if to_html:
+        url = '"' + element.url + '"'
+    else:
+        url = element.url
+    return url, title
+
+def get_formatted_journal(element):
+    journal = remove_latex_chars(element.journal)
+    if element.volume:
+        journal += ', ' + element.volume
+    journal += ' (' + element.year + ')'
+    if element.pages:
+        journal += ', ' + element.pages
+    return journal
+
+def get_formatted_conference(element):
+    conference = remove_latex_chars(element.booktitle)
+    conference += ' (' + element.year + ')'
+    return conference
+
 def save_html(html_file, citations):
     with open(html_file, 'w') as out_file:
         curr_year = 0
-        sorted_citations = sorted(citations, key=lambda k: (-k['year'], -k['month'], k['first_author']))
-        
-        for element in tqdm(sorted_citations):
+
+        for element in tqdm(citations):
             if curr_year != element['year']:
                 if curr_year != 0:
                     out_file.write('</br></br>\n')
@@ -77,32 +104,22 @@ def save_html(html_file, citations):
             out_file.write('\t<div class="h-row-container gutters-row-lg-1 gutters-row-md-1 gutters-row-0 gutters-row-v-lg-1 gutters-row-v-md-1 gutters-row-v-1 style-641 style-local-2180-c27 position-relative">\n')
             out_file.write('\t\t<div style="color: #778899 !important;"><strong>{}</strong></div>\n'.format(element['citation'].authors))
             if element['citation'].url:
-                title = remove_latex_chars(element['citation'].title)
-                url = '"' + element['citation'].url + '"'
+                url, title = get_formatted_title(element['citation'])
                 out_file.write('\t\t<div><a href={} target="_blank"><strong>{}</strong></a></div>\n'.format(url, title))
             else:
                 out_file.write('\t\t<div>{}</div>\n'.format(element['citation'].title))
             if element['citation'].journal:
-                journal = remove_latex_chars(element['citation'].journal)
-                if element['citation'].volume:
-                    journal += ', ' + element['citation'].volume
-                journal += ' (' + element['citation'].year + ')'
-                if element['citation'].pages:
-                    journal += ', ' + element['citation'].pages
-                out_file.write('\t\t<div style="font-style: italic;">{}</div>\n'.format(journal))
-            if element['citation'].booktitle:
-                conference = remove_latex_chars(element['citation'].booktitle)
-                conference += ' (' + element['citation'].year + ')'
-                out_file.write('\t\t<div style="font-style: italic;">{}</div>\n'.format(conference))
+                out_file.write('\t\t<div style="font-style: italic;">{}</div>\n'.format(get_formatted_journal(element['citation'])))
+            elif element['citation'].booktitle:
+                out_file.write('\t\t<div style="font-style: italic;">{}</div>\n'.format(get_formatted_conference(element['citation'])))
             out_file.write('\t</div>\n')
             out_file.write('</div>\n')
 
 def save_md(md_file, citations):
     with open(md_file, 'w') as out_file:
         curr_year = 0
-        sorted_citations = sorted(citations, key=lambda k: (-k['year'], -k['month'], k['first_author']))
-        
-        for element in tqdm(sorted_citations):
+
+        for element in tqdm(citations):
             if curr_year != element['year']:
                 if curr_year != 0:
                     out_file.write('\n\n')
@@ -111,23 +128,14 @@ def save_md(md_file, citations):
 
             out_file.write('**_{}_**  \n'.format(element['citation'].authors))
             if element['citation'].url:
-                title = remove_latex_chars(element['citation'].title)
-                url = element['citation'].url
+                url, title = get_formatted_title(element['citation'])
                 out_file.write('**[{}]({})**  \n'.format(title, url))
             else:
                 out_file.write('**{}**  \n'.format(title))
             if element['citation'].journal:
-                journal = remove_latex_chars(element['citation'].journal)
-                if element['citation'].volume:
-                    journal += ', ' + element['citation'].volume
-                journal += ' (' + element['citation'].year + ')'
-                if element['citation'].pages:
-                    journal += ', ' + element['citation'].pages
-                out_file.write('*{}*'.format(journal))
-            if element['citation'].booktitle:
-                conference = remove_latex_chars(element['citation'].booktitle)
-                conference += ' (' + element['citation'].year + ')'
-                out_file.write('*{}*'.format(conference))
+                out_file.write('*{}*'.format(get_formatted_journal(element['citation'])))
+            elif element['citation'].booktitle:
+                out_file.write('*{}*'.format(get_formatted_conference(element['citation'])))
             out_file.write('\n\n')
 
 def save(output_file, citations):
@@ -138,9 +146,6 @@ def save(output_file, citations):
         save_md(output_file, citations)
     else:
         raise ValueError("The accepted output file formats are 'html' and 'md'.")
-
-def remove_latex_chars(text) -> str:
-    return text.translate(str.maketrans('', '', "{}"))
 
 def get_args():
     parser = argparse.ArgumentParser()
@@ -155,7 +160,7 @@ def main():
     print('Generating %i citations...' % len(bib_data.entries))
     citations = generate_citations(bib_data)
     print("Saving %s file..." % args.output_file)
-    save(args.output_file, citations)
+    save(args.output_file, sort_citations(citations))
 
 if __name__ == '__main__':
     main()
