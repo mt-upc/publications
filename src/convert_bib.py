@@ -131,7 +131,7 @@ def save_md(md_file, citations):
                 url, title = get_formatted_title(element['citation'])
                 out_file.write('**[{}]({})**  \n'.format(title, url))
             else:
-                out_file.write('**{}**  \n'.format(title))
+                out_file.write('**{}**  \n'.format(element['citation'].title))
             if element['citation'].journal:
                 out_file.write('*{}*'.format(get_formatted_journal(element['citation'])))
             elif element['citation'].booktitle:
