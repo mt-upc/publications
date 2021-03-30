@@ -49,7 +49,7 @@
 *Neural Computing and Applications (2020)*
 
 **_Christine Basta, Marta R. Costa-jussà, José A. R. Fonollosa_**  
-**Extensive study on the underlying gender bias in contextualized word embeddings**  
+**Towards Mitigating Gender Bias in a decoder-based Neural Machine Translation model by Adding Contextual Information**  
 *Proceedings of the The Fourth Widening Natural Language Processing Workshop (2020)*
 
 **_Magdalena Biesialska, Bardia Rafieian, Marta R. Costa-jussà_**  
@@ -89,7 +89,7 @@
 *Frontiers in Artificial Intelligence and Applications, 325 (2020), 1978–1981*
 
 **_Marta Ruiz Costa-Jussà_**  
-**Refinement of Unsupervised Cross-Lingual Word Embeddings**  
+**AMALEU: Una Representaci{\'o}n Universal del Lenguaje basada en Aprendizaje Autom{\'a}tico**  
 *Procesamiento del lenguaje natural (2020), 105--108*
 
 **_Marta R. Costa-jussà, Carlos Escolano, Christine Basta, Javier Ferrando, Roser Batlle, Ksenia Kharitonova_**  
@@ -129,7 +129,7 @@
 *Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP): System Demonstrations (2019)*
 
 **_Marta R. Costa-jussà_**  
-**Multilingual, Multi-scale and Multi-layer Visualization of Intermediate Representations**  
+**An analysis of gender bias studies in natural language processing**  
 *Nature Machine Intelligence (2019), 1-2*
 
 **_Felipe Alfaro, Marta R. Costa-jussà, José A. R. Fonollosa_**  
@@ -141,7 +141,7 @@
 *Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1) (2019)*
 
 **_Christine Basta, Marta R Costa-jussà, Noe Casas_**  
-**Findings of the 2019 Conference on Machine Translation (WMT19)**  
+**Evaluating the Underlying Gender Bias in Contextualized Word Embeddings**  
 *Proceedings of the First Workshop on Gender Bias in Natural Language Processing (2019)*
 
 **_Magdalena Biesialska, Lluis Guardia, Marta R. Costa-jussà_**  
@@ -177,7 +177,7 @@
 *Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop (2019)*
 
 **_Marta R Costa-Jussà, Noé Casas, Carlos Escolano, José A. R. Fonollosa_**  
-**From Bilingual to Multilingual Neural Machine Translation by Incremental Training**  
+**Chinese-catalan: A neural machine translation approach based on pivoting and attention mechanisms**  
 *ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP), 18 (2019), 1--8*
 
 **_José A. R. Fonollosa, Noe Casas, Marta R Costa-jussà_**  
@@ -185,11 +185,11 @@
 *arXiv preprint arXiv:1905.06596 (2019)*
 
 **_Marta Ruiz Costa-Jussà_**  
-**Joint Source-Target Self Attention with Locality Constraints**  
+**Dades, m{\`a}quina i {\`e}tica**  
 *Pol\'\itica i prosa (2019), 61--62*
 
 **_Carlos Segura, Alex Palau, Jordi Luque, Marta R Costa-Jussà, Rafael E Banchs_**  
-**Joint Source-Target Self Attention with Locality Constraints**  
+**Chatbol, a chatbot for the Spanish “La Liga”**  
 *9th International Workshop on Spoken Dialogue System Technology (2019)*
 
 
@@ -209,31 +209,31 @@
 *Proceedings of the Fifth Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial 2018) (2018)*
 
 **_Noe Casas, José A. R. Fonollosa, Marta Ruiz Costa-Jussà_**  
-**A Neural Approach to Language Variety Translation**  
+**A differentiable bleu loss. analysis and first results**  
 *ICLR 2018 Workshop Track: 6th International Conference on Learning Representations: Vancouver Convention Center, Vancouver, BC, Canada: April 30-May 3, 2018 (2018)*
 
 **_Marta R Costa-Jussà_**  
-**A Neural Approach to Language Variety Translation**  
+**From feature to paradigm: deep learning in machine translation**  
 *Journal of Artificial Intelligence Research, 61 (2018), 947--974*
 
 **_Marta R Costa-jussà, Álvaro Nuez, Carlos Segura_**  
-**A Neural Approach to Language Variety Translation**  
+**Experimental research on encoder-decoder architectures with attention for chatbots**  
 *Computaci\'on y Sistemas, 22 (2018)*
 
 **_Marta R. Costa-jussà, José A. R. Fonollosa_**  
-**A Neural Approach to Language Variety Translation**  
+**Combining Phrase and Neural-Based Machine Translation: What Worked and Did Not**  
 *Computational Linguistics and Intelligent Text Processing (2018)*
 
 **_Marta Ruiz Costa-Jussà_**  
-**A Neural Approach to Language Variety Translation**  
+**Panel discussion on Speech technologies: Industry and Academy**  
 *Proc. IberSPEECH 2018 (2018)*
 
 **_Marta Ruiz Costa-Jussà, Noe Casas, Maite Melero_**  
-**A Neural Approach to Language Variety Translation**  
+**English-catalan neural machine translation in the biomedical domain through the cascade approach**  
 *LREC 2018: Workshop MultilingualBIO: Multilingual Biomedical Text Processing: proceedings (2018)*
 
 **_Laura Cross Vila, Carlos Escolano, José A. R. Fonollosa, Marta R Costa-jussà_**  
-**A Neural Approach to Language Variety Translation**  
+**End-to-End Speech Translation with the Transformer.**  
 *IberSPEECH (2018)*
 
 
@@ -257,39 +257,39 @@
 *Proceedings of the Fourth Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial) (2017)*
 
 **_Luis Antonio Belanche Muñoz, Marta Ruiz Costa-Jussà_**  
-**Why Catalan-Spanish Neural Machine Translation? Analysis, comparison and combination with standard Rule and Phrase-based technologies**  
+**Bridging deep and kernel methods**  
 *ESANN2017: 25th European Symposium on Artificial Neural Networks: Bruges, Belgium, April 26-27-28 (2017)*
 
 **_Miguel Betanzos, Marta Ruiz Costa-Jussà, Luis Antonio Belanche Muñoz_**  
-**Why Catalan-Spanish Neural Machine Translation? Analysis, comparison and combination with standard Rule and Phrase-based technologies**  
+**Tradares: A tool for the automatic evaluation of human translation quality within an MOOC environment**  
 *Applied artificial intelligence, 31 (2017), 288--297*
 
 **_Marta R Costa-Jussà, David Aldón, José A. R. Fonollosa_**  
-**Why Catalan-Spanish Neural Machine Translation? Analysis, comparison and combination with standard Rule and Phrase-based technologies**  
+**Chinese--spanish neural machine translation enhanced with character and word bitmap fonts**  
 *Machine Translation, 31 (2017), 35--47*
 
 **_Marta R Costa-Jussá, José A. R. Fonollosa_**  
-**Why Catalan-Spanish Neural Machine Translation? Analysis, comparison and combination with standard Rule and Phrase-based technologies**  
+**DeepVoice: tecnolog{\'\i}as de aprendizaje profundo aplicadas al procesado de voz y audio**  
 *Procesamiento del Lenguaje Natural, 59 (2017), 117--120*
 
 **_Marta R Costa-jussa, José A. R. Fonollosa_**  
-**Why Catalan-Spanish Neural Machine Translation? Analysis, comparison and combination with standard Rule and Phrase-based technologies**  
+**Deep Learning Technologies for Speech and Audio Processing**  
 *PROCESAMIENTO DEL LENGUAJE NATURAL (2017), 117--120*
 
 **_Marta R Costa-jussà, Alexandre Allauzen, Loïc Barrault, Kyunghun Cho, Holger Schwenk_**  
-**Why Catalan-Spanish Neural Machine Translation? Analysis, comparison and combination with standard Rule and Phrase-based technologies**  
+**Introduction to the special issue on deep learning approaches for machine translation**  
 *Computer Speech \& Language, 46 (2017), 367--373*
 
 **_Carlos Escolano, Marta Ruiz Costa-Jussà_**  
-**Why Catalan-Spanish Neural Machine Translation? Analysis, comparison and combination with standard Rule and Phrase-based technologies**  
+**Generaci{\'o}n morfol{\'o}gica con algoritmos de aprendizaje profundo integrada en un sistema de traducci{\'o}n autom{\'a}tica estad{\'\i}stica**  
 *Procesamiento del lenguaje natural (SEPLN) (2017), 107--114*
 
 **_Carlos Escolano, Marta R Costa-jussa_**  
-**Why Catalan-Spanish Neural Machine Translation? Analysis, comparison and combination with standard Rule and Phrase-based technologies**  
+**Integration of morphology generation techniques based on deep learning into a statistical machine translation system**  
 *PROCESAMIENTO DEL LENGUAJE NATURAL (2017), 107--114*
 
 **_M Bashir Kazimi, Marta R Costa-jussà_**  
-**Why Catalan-Spanish Neural Machine Translation? Analysis, comparison and combination with standard Rule and Phrase-based technologies**  
+**Coverage for Character Based Neural Machine Translation**  
 *Procesamiento del Lenguaje Natural, 59 (2017), 99--106*
 
 
@@ -317,31 +317,31 @@
 *Proceedings of the First Conference on Machine Translation: Volume 2, Shared Task Papers (2016)*
 
 **_David Aldón Mínguez, Marta Ruiz Costa-Jussà, José A. R. Fonollosa_**  
-**WMT 2016 Multimodal Translation System Description based on Bidirectional Recurrent Neural Networks with Double-Embeddings**  
+**Neural machine translation using bitmap fonts**  
 *Proceedings of the EAMT 2016 Fifth Workshop on Hybrid Approaches to Translation (HyTra) (2016)*
 
 **_Marta R Costa-Jussà_**  
-**WMT 2016 Multimodal Translation System Description based on Bidirectional Recurrent Neural Networks with Double-Embeddings**  
+**Integraci{\'o}n de Paradigmas de Traducci{\'o}n Autom{\'a}tica (IMTraP)**  
 *Procesamiento del Lenguaje Natural (2016), 135--138*
 
 **_Marta R Costa-jussà, Reinhard Rapp, Patrik Lambert, Kurt Eberle, Rafael E Banchs, Bogdan Babych_**  
-**WMT 2016 Multimodal Translation System Description based on Bidirectional Recurrent Neural Networks with Double-Embeddings**  
+**Hybrid approaches to machine translation**  
 
 
 **_Marta R Costa-jussà, Srinivas Bangalore, Patrik Lambert, Lluís Màrquez, Elena Montiel-Ponsoda_**  
-**WMT 2016 Multimodal Translation System Description based on Bidirectional Recurrent Neural Networks with Double-Embeddings**  
+**Introduction to the special issue on cross-language algorithms and applications**  
 *Journal of Artificial Intelligence Research, 55 (2016), 1--15*
 
 **_Marta R Costa-jussà, Carlos Escolano_**  
-**WMT 2016 Multimodal Translation System Description based on Bidirectional Recurrent Neural Networks with Double-Embeddings**  
+**Morphology generation for statistical machine translation using deep learning techniques**  
 *arXiv preprint arXiv:1610.02209 (2016)*
 
 **_Parth Gupta, Marta R Costa-Jussa, Paolo Rosso, Rafael E Banchs_**  
-**WMT 2016 Multimodal Translation System Description based on Bidirectional Recurrent Neural Networks with Double-Embeddings**  
+**A deep source-context feature for lexical selection in statistical machine translation**  
 *Pattern Recognition Letters, 75 (2016), 24--29*
 
 **_Maite Melero, Marta R Costa-jussà, Patrik Lambert, Martí Quixal_**  
-**WMT 2016 Multimodal Translation System Description based on Bidirectional Recurrent Neural Networks with Double-Embeddings**  
+**Selection of correction candidates for the normalization of Spanish user-generated content**  
 *Natural Language Engineering, 22 (2016), 135--161*
 
 
@@ -357,43 +357,43 @@
 *Proceedings of the Fourth Workshop on Hybrid Approaches to Translation (HyTra) (2015)*
 
 **_Marta R Costa-Jussa, José A. R. Fonollosa_**  
-**Ongoing Study for Enhancing Chinese-Spanish Translation with Morphology Strategies**  
+**Latest trends in hybrid machine translation and its applications**  
 *Computer Speech & Language, 32 (2015), 3--10*
 
 **_Marta R Costa-Jussa, José A. R. Fonollosa, José B Mariño, Marc Poch, Mireia Farrús_**  
-**Ongoing Study for Enhancing Chinese-Spanish Translation with Morphology Strategies**  
+**A large Spanish-Catalan parallel corpus release for machine translation**  
 *Computing and Informatics, 33 (2015), 907--920*
 
 **_Marta R Costa-Jussa_**  
-**Ongoing Study for Enhancing Chinese-Spanish Translation with Morphology Strategies**  
+**Segmentation Strategies to Face Morphology Challenges in Brazilian-Portuguese/English Statistical Machine Translation and Its Integration in Cross-Language Information Retrieval**  
 *Computaci\'on y Sistemas, 19 (2015), 357--370*
 
 **_Marta R Costa-Jussà, Jordi Centelles_**  
-**Ongoing Study for Enhancing Chinese-Spanish Translation with Morphology Strategies**  
+**Description of the Chinese-to-Spanish rule-based machine translation system developed using a hybrid combination of human annotation and statistical techniques**  
 *ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP), 15 (2015), 1--13*
 
 **_Marta R Costa-Jussà_**  
-**Ongoing Study for Enhancing Chinese-Spanish Translation with Morphology Strategies**  
+**Domain adaptation strategies in statistical machine translation: a brief overview**  
 *The Knowledge Engineering Review, 30 (2015), 514--520*
 
 **_Marta R Costa-jussà_**  
-**Ongoing Study for Enhancing Chinese-Spanish Translation with Morphology Strategies**  
+**How much hybridization does machine translation Need?**  
 *Journal of the Association for Information Science and Technology, 66 (2015), 2160--2165*
 
 **_Marta R Costa-jussà, Mireia Farrús_**  
-**Ongoing Study for Enhancing Chinese-Spanish Translation with Morphology Strategies**  
+**Towards human linguistic machine translation evaluation**  
 *Digital Scholarship in the Humanities, 30 (2015), 157--166*
 
 **_José A. R. Fonollosa, Marta Ruiz Costa-Jussà_**  
-**Ongoing Study for Enhancing Chinese-Spanish Translation with Morphology Strategies**  
+**Hybrid machine translation: integration of linguistics and statistics**  
 *Computer speech and language, 32 (2015), 1--2*
 
 **_Marta Ruiz Costa-jussà, Lluís Formiga, Oriol Torrillas, Jordi Petit, José A. R. Fonollosa_**  
-**Ongoing Study for Enhancing Chinese-Spanish Translation with Morphology Strategies**  
+**A MOOC on approaches to machine translation**  
 *International Review of Research in Open and Distributed Learning, 16 (2015), 174--205*
 
 **_Marta Ruiz Costa-Jussà_**  
-**Ongoing Study for Enhancing Chinese-Spanish Translation with Morphology Strategies**  
+**Traducci{\'o}n autom{\'a}tica entre chino y espa{\~n}ol:?` d{\'o}nde estamos?**  
 *Komputer Sapiens, 1 (2015), 16--19*
 
 
@@ -417,31 +417,31 @@
 *Proceedings of the Demonstrations at the 14th Conference of the European Chapter of the Association for Computational Linguistics (2014)*
 
 **_Jordi Centelles, Marta R Costa-Jussà, Rafael E Banchs, Alexander Gelbukh_**  
-**CHISPA on the GO: A mobile Chinese-Spanish translation service for travellers in trouble**  
+**On-line and off-line chinese-portuguese translation service for mobile applications**  
 *Computaci\'on y Sistemas, 18 (2014), 603--610*
 
 **_Jordi Centelles, Marta Ruiz Costa-Jussà, Rafael E Banchs, Alexander Gelbukh_**  
-**CHISPA on the GO: A mobile Chinese-Spanish translation service for travellers in trouble**  
+**An IR-based strategy for supporting chinese-portuguese translation services in off-line mode**  
 *International Conference on Intelligent Text Processing and Computational Linguistics (2014)*
 
 **_Jordi Centelles, Marta R Costa-jussà, Rafael E Banchs_**  
-**CHISPA on the GO: A mobile Chinese-Spanish translation service for travellers in trouble**  
+**A Client mobile application for Chinese-Spanish statistical machine translation**  
 *Fifteenth Annual Conference of the International Speech Communication Association (2014)*
 
 **_Marta R Costa-Jussa, Jens Grivolla, Bart Mellebeek, Francesc Benavent, Joan Codina, Rafael E Banchs_**  
-**CHISPA on the GO: A mobile Chinese-Spanish translation service for travellers in trouble**  
+**Using annotations on Mechanical Turk to perform supervised polarity classification of Spanish customer comments**  
 *Information Sciences, 275 (2014), 400--412*
 
 **_Marta R Costa-Jussà, Mireia Farrús_**  
-**CHISPA on the GO: A mobile Chinese-Spanish translation service for travellers in trouble**  
+**Statistical machine translation enhancements through linguistic levels: A survey**  
 *ACM Computing Surveys (CSUR), 46 (2014), 1--28*
 
 **_Marta R. Costa-jussà, Lluís Formiga, Jordi Petit, José A. R. Fonollosa_**  
-**CHISPA on the GO: A mobile Chinese-Spanish translation service for travellers in trouble**  
+**Detailed Description of the Development of a MOOC in the Topic of Statistical Machine Translation**  
 *Human-Inspired Computing and Its Applications (2014)*
 
 **_Marta Ruiz Costa-Jussà, Rafael Enrique Banchs Martínez_**  
-**CHISPA on the GO: A mobile Chinese-Spanish translation service for travellers in trouble**  
+**Is there Hope for Interlingua methods? A CLIR comparison experiment between Interlingua and Query Translation**  
 *Research in computing science, 74 (2014), 81--87*
 
 
@@ -465,19 +465,19 @@
 *NAACL HLT 2013 Tutorial Abstracts (2013)*
 
 **_Rafael E Banchs, Marta R Costa-Jussà_**  
-**Morphological, Syntactical and Semantic Knowledge in Statistical Machine Translation**  
+**Cross-language document retrieval by using nonlinear semantic mapping**  
 *Applied Artificial Intelligence, 27 (2013), 781--802*
 
 **_Marta R. Costa-Jussà, Carlos A. Henr\'ıquez, Rafael E. Banchs_**  
-**Morphological, Syntactical and Semantic Knowledge in Statistical Machine Translation**  
+**Evaluating Indirect Strategies for Chinese-Spanish Statistical Machine Translation: Extended Abstract**  
 *Proceedings of the Twenty-Third International Joint Conference on Artificial Intelligence (2013)*
 
 **_Mireia Farrus, Marta Ruiz Costa-Jussà_**  
-**Morphological, Syntactical and Semantic Knowledge in Statistical Machine Translation**  
+**Automatic evaluation for E-Learning using latent semantic analysis: A use case**  
 *International review of research in open and distance learning, 14 (2013), 239--254*
 
 **_Marta Ruiz Costa-Jussà_**  
-**Morphological, Syntactical and Semantic Knowledge in Statistical Machine Translation**  
+**Communicating China and Latin America**  
 
 
 
@@ -505,39 +505,39 @@
 
 
 **_Jordi Adell Mercado, Antonio Bonafonte Cávez, Antonio Cardenal, Marta Ruiz Costa-Jussà, José A. R. Fonollosa, M Asunción Moreno Bilbao, Eva Navas, Eduardo Rodríguez Banga_**  
-**Proceedings of the Joint Workshop on Exploiting Synergies between Information Retrieval and Machine Translation (ESIRMT) and Hybrid Approaches to Machine Translation (HyTra)**  
+**Buceador, a multi-language search engine for digital libraries**  
 *2012 International Conference on Language Resources and Evaluation: proceedings (2012)*
 
 **_Marta R Costa-Jussa, Mireia Farrús, José B Marino, José A. R. Fonollosa_**  
-**Proceedings of the Joint Workshop on Exploiting Synergies between Information Retrieval and Machine Translation (ESIRMT) and Hybrid Approaches to Machine Translation (HyTra)**  
+**Study and comparison of rule-based and statistical catalan-spanish machine translation systems**  
 *Computing and informatics, 31 (2012), 245--270*
 
 **_Marta R Costa-Jussà, Carlos A Henríquez, Rafael E Banchs_**  
-**Proceedings of the Joint Workshop on Exploiting Synergies between Information Retrieval and Machine Translation (ESIRMT) and Hybrid Approaches to Machine Translation (HyTra)**  
+**Evaluating indirect strategies for chinese-spanish statistical machine translation**  
 *Journal of artificial intelligence research, 45 (2012), 761--780*
 
 **_Marta R Costa-jussà, Mireia Farrús, Jordi Serrano Pons_**  
-**Proceedings of the Joint Workshop on Exploiting Synergies between Information Retrieval and Machine Translation (ESIRMT) and Hybrid Approaches to Machine Translation (HyTra)**  
+**Machine translation in medicine**  
 *Proceedings in ARSA-Advanced Research in Scientific Areas (2012)*
 
 **_Marta Ruiz Costa-jussà_**  
-**Proceedings of the Joint Workshop on Exploiting Synergies between Information Retrieval and Machine Translation (ESIRMT) and Hybrid Approaches to Machine Translation (HyTra)**  
+**An overview of the phrase-based statistical machine translation techniques**  
 *The Knowledge Engineering Review, 27 (2012), 413--431*
 
 **_Mireia Farrús, Marta Ruiz Costa-Jussà, Maya Popovic, Carlos A Henriquez_**  
-**Proceedings of the Joint Workshop on Exploiting Synergies between Information Retrieval and Machine Translation (ESIRMT) and Hybrid Approaches to Machine Translation (HyTra)**  
+**Study and correlation analysis of linguistic, perceptual and automatic machine translation evaluations**  
 *Journal of the Association for Information Science and Technology, 63 (2012), 174--184*
 
 **_Maite Melero, Marta Ruiz Costa-Jussà, Judit Domingo, Montse Marquina, Martí Quixal_**  
-**Proceedings of the Joint Workshop on Exploiting Synergies between Information Retrieval and Machine Translation (ESIRMT) and Hybrid Approaches to Machine Translation (HyTra)**  
+**Holaaa!! writin like u talk is kewl but kinda hard 4 NLP**  
 *Proceedings of the Eight International Conference on Language Resources and Evaluation (LREC'12) (2012)*
 
 **_José David Pérez, Antonio Bonafonte Cávez, Marta Ruiz Costa-Jussà, Antonio Cardenal, José A. R. Fonollosa, M Asunción Moreno Bilbao, Eva Navas, Eduardo Rodríguez Banga_**  
-**Proceedings of the Joint Workshop on Exploiting Synergies between Information Retrieval and Machine Translation (ESIRMT) and Hybrid Approaches to Machine Translation (HyTra)**  
+**Search engine for multilingual audiovisual contents**  
 *Proceedings: IberSPEECH 2012: VII Jornadas en Tecnolog\'\ia del Habla and III Iberian SLTech Workshop: November 21-23, 2012 Escuela Polit\'ecnica Superior Universidad Aut\'onoma de Madrid, Madrid, Spain (2012)*
 
 **_Marta Ruiz Costa-Jussà, Christian Paz-Trillo, Renata Wassermann_**  
-**Proceedings of the Joint Workshop on Exploiting Synergies between Information Retrieval and Machine Translation (ESIRMT) and Hybrid Approaches to Machine Translation (HyTra)**  
+**Initial approaches on Cross-Lingual Information Retrieval using Statistical Machine Translation on user-queries**  
 *ONTOBRAS-MOST: Joint V Seminar on Ontology Research in Brazil and VII International Workshop on Metamodels, Ontologies and Semantic Technologies: Recife, Brazil, September 19-21, 2012: proceedings (2012)*
 
 
@@ -553,35 +553,35 @@
 *Proceedings of Fifth Workshop on Syntax, Semantics and Structure in Statistical Translation (2011)*
 
 **_M. R. Costa-Jussa, G. Cobo, J. Duran, D. Garcia, F. Cortes_**  
-**A Semantic Feature for Statistical Machine Translation**  
+**Automatic test assessment web platform**  
 *2011 Promotion and Innovation with New Technologies in Engineering Education (FINTDI 2011) (2011)*
 
 **_Marta R Costa-Jussà, Rafael E Banchs_**  
-**A Semantic Feature for Statistical Machine Translation**  
+**A vector-space dynamic feature for phrase-based statistical machine translation**  
 *Journal of Intelligent Information Systems, 37 (2011), 139--154*
 
 **_Marta R Costa-Jussà, José A. R. Fonollosa, Enric Monte_**  
-**A Semantic Feature for Statistical Machine Translation**  
+**Recursive alignment block classification technique for word reordering in statistical machine translation**  
 *Language resources and evaluation, 45 (2011), 165--179*
 
 **_Marta R Costa-Jussá, Carlos Henríquez, Rafael E Banchs, José B Mariño_**  
-**A Semantic Feature for Statistical Machine Translation**  
+**Evaluaci{\'o}n de estrategias para la traducci{\'o}n autom{\'a}tica estad{\'\i}stica de chino a castellano con el ingl{\'e}s como lengua pivote**  
 *Procesamiento del lenguaje natural, 47 (2011), 119--126*
 
 **_Marta R Costa-jussa, Rafael E Banchs_**  
-**A Semantic Feature for Statistical Machine Translation**  
+**Sentence Alignment by Means of Cross-Language Information Retrieval**  
 *Speech and Language Technologies (2011)*
 
 **_Mireia Farrús, Marta R Costa-Jussà, José B Mariño, Marc Poch, Adolfo Hernández, Carlos Henríquez, José AR Fonollosa_**  
-**A Semantic Feature for Statistical Machine Translation**  
+**Overcoming statistical machine translation limitations: error analysis and proposed solutions for the Catalan--Spanish language pair**  
 *Language resources and evaluation, 45 (2011), 181--208*
 
 **_Marta Ruiz Costa-Jussà, José A. R. Fonollosa_**  
-**A Semantic Feature for Statistical Machine Translation**  
+**Using linear interpolation and weighted reordering hypotheses in the Moses system**  
 *Seventh Conference on International Language Resources and Evaluation (2011)*
 
 **_Marta Ruiz Costa-Jussà, Carlos Henríquez, Rafael E Banchs_**  
-**A Semantic Feature for Statistical Machine Translation**  
+**Enhancing scarce-resource language translation through pivot combinations**  
 *Proceedings of the 5th International Joint Conference on Natural Language Processing (2011)*
 
 
@@ -601,43 +601,43 @@
 *Proceedings of the Seventh International Conference on Language Resources and Evaluation (LREC'10) (2010)*
 
 **_Rafael E Banchs, Marta R Costa-Jussà_**  
-**Automatic and Human Evaluation Study of a Rule-based and a Statistical Catalan-Spanish Machine Translation Systems**  
+**A non-linear semantic mapping technique for cross-language sentence matching**  
 *International Conference on Natural Language Processing (2010)*
 
 **_Rafael Enrique Banchs Martínez, Marta Ruiz Costa-Jussà_**  
-**Automatic and Human Evaluation Study of a Rule-based and a Statistical Catalan-Spanish Machine Translation Systems**  
+**Uso de mapas sem{\'a}nticos para la b{\'u}squeda crosslingue de oraciones paralelas**  
 *Actas del I Congreso Espa\~nol de Recuperaci\'on de Informaci\'on (CERI 2010), Madrid, Espa\~na, 15 y 16 de junio de 2010 (2010)*
 
 **_Marta R Costa-Jussá, Vidas Daudaravicius, Rafael E Banchs_**  
-**Automatic and Human Evaluation Study of a Rule-based and a Statistical Catalan-Spanish Machine Translation Systems**  
+**Using collocation segmentation to extract translation units in a phrase-based statistical machine translation system**  
 *Procesamiento del lenguaje natural, 45 (2010), 215--220*
 
 **_Marta R. Costa-jussà, Rafael E. Banchs, Joan Codina_**  
-**Automatic and Human Evaluation Study of a Rule-based and a Statistical Catalan-Spanish Machine Translation Systems**  
+**WHERE ARE YOU FROM? - Tell me HOW you Write and I Will Tell you WHO you Are**  
 *Proceedings of the 2nd International Conference on Agents and Artificial Intelligence - Volume 1: ICAART, (2010)*
 
 **_Mireia Farrus, Marta Ruiz Costa-Jussà, German Cobo, David García Solórzano, Luis Villarejo Muñóz, Rafael E Banchs_**  
-**Automatic and Human Evaluation Study of a Rule-based and a Statistical Catalan-Spanish Machine Translation Systems**  
+**Automatic evaluation of continuous assessment tests**  
 
 
 **_Mireia Farrús Cabeceran, Marta Ruiz Costa-Jussà, José Bernardo Mariño Acebal, José A. R. Fonollosa_**  
-**Automatic and Human Evaluation Study of a Rule-based and a Statistical Catalan-Spanish Machine Translation Systems**  
+**Linguistic-based evaluation criteria to identify statistical machine translation errors**  
 *14th Annual Conference of the European Association for Machine Translation (2010)*
 
 **_Rejwanul Haque, Sudip Kumar Naskar, Andy Way, Marta R Costa-Jussà, Rafael E Banchs_**  
-**Automatic and Human Evaluation Study of a Rule-based and a Statistical Catalan-Spanish Machine Translation Systems**  
+**Sentence similarity-based source context modelling in pbsmt**  
 *2010 International Conference on Asian Language Processing (2010)*
 
 **_Carlos A Henriquez, Marta Ruiz Costa-Jussà, Vidas Daudaravicius, Rafael E Banchs, José B Mariño_**  
-**Automatic and Human Evaluation Study of a Rule-based and a Statistical Catalan-Spanish Machine Translation Systems**  
+**UPC-BMIC-VDU system description for the IWSLT 2010: testing several collocation segmentations in a phrase-based SMT system**  
 *Proceedings of IWSLT 2010, Paris, France (2010)*
 
 **_Marta Ruiz Costa-Jussà, Vidas Daudaravicius, Rafael E Banchs_**  
-**Automatic and Human Evaluation Study of a Rule-based and a Statistical Catalan-Spanish Machine Translation Systems**  
+**Integration of statistical collocation segmentations in a phrase-based statistical machine translation system**  
 *EAMT 2010: proceedings of the 14th annual conference of the European Association for Machine Translation (2010)*
 
 **_Marta Ruiz Costa-Jussà, Rafael E Banchs, Jens Grivolla, Joan Codina_**  
-**Automatic and Human Evaluation Study of a Rule-based and a Statistical Catalan-Spanish Machine Translation Systems**  
+**Plagiarism detection using information retrieval and similarity measures based on image processing techniques**  
 *Notebook Papers of CLEF 2010 Labs and Workshops, 22-23 September, Padua, Italy, September 2010 (2010)*
 
 
@@ -653,27 +653,27 @@
 *Proceedings of the Fourth Workshop on Statistical Machine Translation (2009)*
 
 **_Rafael E Branchs, Marta R Costa-Jussá_**  
-**The TALP-UPC Phrase-Based Translation System for EACL-WMT 2009**  
+**Extracci{\'o}n crossling{\"u}e de documentos usando mapas sem{\'a}nticos no-lineales**  
 *Procesamiento del lenguaje natural, 43 (2009), 169--176*
 
 **_Marta R Costa-Jussa, José A. R. Fonollosa_**  
-**The TALP-UPC Phrase-Based Translation System for EACL-WMT 2009**  
+**State-of-the-art word reordering approaches in statistical machine translation: A survey**  
 *IEICE TRANSACTIONS on Information and Systems, 92 (2009), 2179--2185*
 
 **_Marta R Costa-Jussa, José A. R. Fonollosa_**  
-**The TALP-UPC Phrase-Based Translation System for EACL-WMT 2009**  
+**An Ngram-based reordering model**  
 *Computer Speech \& Language, 23 (2009), 362--375*
 
 **_Marta R Costa-Jussà, José A. R. Fonollosa_**  
-**The TALP-UPC Phrase-Based Translation System for EACL-WMT 2009**  
+**Phrase and ngram-based statistical machine translation system combination**  
 *Applied Artificial Intelligence, 23 (2009), 694--711*
 
 **_Mireia Farrús, Marta R Costa-jussà, Marc Poch, Adolfo Hernández, José B Mariño Acebal_**  
-**The TALP-UPC Phrase-Based Translation System for EACL-WMT 2009**  
+**Improving a Catalan-Spanish statistical translation system using morphosyntactic knowledge**  
 *Proceedings of the 13th Annual Conference of the European Association for Machine Translation; 2009 May 14-15; Barcelona, Spain. Barcelona: European Association for Machine Translation; 2009. p. 52-7. (2009)*
 
 **_Mireia Farrús, Marc Poch, Marta R Costa-jussà, José B Mariño Acebal, Adolfo Hernández, Carlos Henríquez, José A. R. Fonollosa_**  
-**The TALP-UPC Phrase-Based Translation System for EACL-WMT 2009**  
+**The TALP on-line Spanish-Catalan machine-translation system**  
 *Teixeira A, Sales M, Braga D, editors. I Iberian SLTech 2009. Proceedings of the I Joint SIG-IL/Microsoft Workshop on Speech and Language Technologies for Iberian Languages; 2009 Sep 3-4; Porto Salvo, Portugal. Portugal: Designeed; 2009. p. 105. (2009)*
 
 
@@ -693,27 +693,27 @@
 *Proceedings of the Sixth International Conference on Language Resources and Evaluation (LREC'08) (2008)*
 
 **_Marta R Costa-jussa, José A. R. Fonollosa_**  
-**Using Reordering in Statistical Machine Translation based on Alignment Block Classification**  
+**Generating multiple weighted reordering hypotheses for an SMT system**  
 *PROCESAMIENTO DEL LENGUAJE NATURAL (2008), 267--272*
 
 **_Mireia Farrús, Marta R Costa-jussà, Marc Poch, Adolfo Hernández, José B Mariño Acebal_**  
-**Using Reordering in Statistical Machine Translation based on Alignment Block Classification**  
+**N-II: Traductor autom{\'a}tico estad{\'\i}stico basado en N-gramas**  
 *V Jornadas en Tecnolog\'\ia del Habla; 2008 Nov. 12-14; Bilbao (Espa\~na). Bilbao: Universidad del Pa\'\is Vasco; 2008. p. 277-80. (2008)*
 
 **_José A. R. Fonollosa_**  
-**Using Reordering in Statistical Machine Translation based on Alignment Block Classification**  
+**Generaci{\'o}n de multiples hip{\'o}tesis ponderadas de reordenamiento para un sistema de traducci{\'o}n autom{\'a}tica estad{\i}stica**  
 *Procesamiento del lenguaje Natural (2008), 267--272*
 
 **_H Li, A Aw, M Zhang, Maxim Khalilov, Marta Ruiz Costa-Jussà, Carlos Alberto Henríquez Quintana, José A. R. Fonollosa, A Hernández, José Bernardo Mariño Acebal, Rafael Enrique Banchs Martínez, others_**  
-**Using Reordering in Statistical Machine Translation based on Alignment Block Classification**  
+**The talp \& i2r smt systems for iwslt 2008**  
 *International Workshop on Spoken Language Translation (2008)*
 
 **_Enrique Montolar, Marta R Costa-Jussà, José A. R. Fonollosa_**  
-**Using Reordering in Statistical Machine Translation based on Alignment Block Classification**  
+**T{\'E}CNICAS ESTAD{\'I}STICAS PARA EL FILTRADO DE UN CORPUS BILING{\"U}E EN TRADUCCI{\'O}N AUTOM{\'A}TICA**  
 
 
 **_Henrik Schulz, Marta R Costa-Juss, José A. R. Fonollosa_**  
-**Using Reordering in Statistical Machine Translation based on Alignment Block Classification**  
+**TECNOPARLA-Speech technologies for Catalan and its application to Speech-to-speech Translation**  
 *Procesamiento del lenguaje Natural, 41 (2008)*
 
 
@@ -737,7 +737,7 @@
 *Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Companion Volume, Short Papers (2007)*
 
 **_Patrik Lambert, Marta R Costa-Jussà, Josep M Crego, Maxim Khalilov, José B Mariño, Rafael E Banchs, José AR Fonollosa, Holger Schwenk_**  
-**Analysis and System Combination of Phrase- and N-Gram-Based Statistical Machine Translation Systems**  
+**The TALP N-Gram-based SMT System for IWSLT 2007**  
 *International Workshop on Spoken Language Translation (IWSLT) 2007 (2007)*
 
 
@@ -757,39 +757,39 @@
 *Proceedings on the Workshop on Statistical Machine Translation (2006)*
 
 **_Marta R Costa-Jussa, José A. R. Fonollosa_**  
-**N-gram-based SMT System Enhanced with Reordering Patterns**  
+**Statistical System of Word Re-ordering in Machine Translation**  
 *PROCESAMIENTO DEL LENGUAJE NATURAL (2006), 249--255*
 
 **_Marta R Costa-jussà, Josep M Crego, Adrià de Gispert, Patrik Lambert, Maxim Khalilov, José A. R. Fonollosa, José B Mariño, Rafael E Banchs_**  
-**N-gram-based SMT System Enhanced with Reordering Patterns**  
+**TALP phrase-based system and TALP system combination for IWSLT 2006**  
 *International Workshop on Spoken Language Translation (IWSLT) 2006 (2006)*
 
 **_Marta R Costa-jussá, José A. R. Fonollosa_**  
-**N-gram-based SMT System Enhanced with Reordering Patterns**  
+**Sistema Estad{\'\i}stico de Reordenamiento de Palabras en Traducci{\'o}n Autom{\'a}tica**  
 *Procesamiento del Lenguaje Natural (2006), 249--255*
 
 **_Josep M Crego, Adrià de Gispert, Patrik Lambert, Maxim Khalilov, Marta R Costa-jussà, José B Mariño, Rafael E Banchs, José A. R. Fonollosa_**  
-**N-gram-based SMT System Enhanced with Reordering Patterns**  
+**The TALP N-Gram-based SMT System for IWSLT 2006**  
 *International Workshop on Spoken Language Translation (IWSLT) 2006 (2006)*
 
 **_Patrik Lambert, Jesús Giménez, Marta R Costa-jussá, Enrique Amigó, Rafael E Banchs, Lluís Márquez, José A. R. Fonollosa_**  
-**N-gram-based SMT System Enhanced with Reordering Patterns**  
+**Machine Translation system development based on human likeness**  
 *2006 IEEE Spoken Language Technology Workshop (2006)*
 
 **_José B Marino, Rafael E Banchs, Josep M Crego, Adrià Gispert, Patrik Lambert, José A. R. Fonollosa, Marta R Costa-jussà_**  
-**N-gram-based SMT System Enhanced with Reordering Patterns**  
+**N-gram-based machine translation**  
 *Computational linguistics, 32 (2006), 527--549*
 
 **_José B Marino, Rafael E Banchs, Josep M Crego_**  
-**N-gram-based SMT System Enhanced with Reordering Patterns**  
+**UPC’s Bilingual N-gram Translation System**  
 
 
 **_Marta Ruiz Costa-jussa_**  
-**N-gram-based SMT System Enhanced with Reordering Patterns**  
+**On developing novel reordering algorithms for Statistical Machine Translation**  
 
 
 **_Holger Schwenk, Marta R Costa-Jussa, José A. R. Fonollosa_**  
-**N-gram-based SMT System Enhanced with Reordering Patterns**  
+**Continuous space language models for the IWSLT 2006 task**  
 *International Workshop on Spoken Language Translation (IWSLT) 2006 (2006)*
 
 
@@ -797,7 +797,7 @@
 ### 2005
 
 **_José Bernardo Mariño Acebal, Rafael Enrique Banchs Martínez, Josep María Crego Clemente, Adrià de Gispert Ramis, Patrik Lambert, José A. R. Fonollosa, Marta Ruiz Costa-Jussà_**  
-**N-gram-based SMT System Enhanced with Reordering Patterns**  
+**Modelo estocástico de traducción basado en N-gramas de tuplas bilingües y combinación log-lineal de características**  
 
 
 **_Marta Ruiz Costa-jussà, José A. R. Fonollosa_**  
@@ -805,31 +805,31 @@
 *Proceedings of the ACL Workshop on Building and Using Parallel Texts (2005)*
 
 **_Marta Ruiz Costa-juss, José A. R. Fonollosa_**  
-**Improving Phrase-Based Statistical Translation by Modifying Phrase Extraction and Including Several Features**  
+**T{\'e}cnicas mejoradas para la traducci{\'o}n basada en frases**  
 *Procesamiento del Lenguaje Natural, 35 (2005)*
 
 **_Marta R Costa-jussà, José A. R. Fonollosa_**  
-**Improving Phrase-Based Statistical Translation by Modifying Phrase Extraction and Including Several Features**  
+**Tuning a phrase-based statistical translation system for the IWSLT 2005 Chinese to English and Arabic to English tasks**  
 *International Workshop on Spoken Language Translation (IWSLT) 2005 (2005)*
 
 **_Josep M Crego, Marta R Costa-Jussa, José B Mariño, José A. R. Fonollosa_**  
-**Improving Phrase-Based Statistical Translation by Modifying Phrase Extraction and Including Several Features**  
+**N-gram-based versus phrase-based statistical machine translation**  
 *International Workshop on Spoken Language Translation (IWSLT) 2005 (2005)*
 
 **_José B Marino, Rafael E Banchs, Patrik Lambert, Marta Ruiz, Josep Marıa Crego, José A. R. Fonollosa_**  
-**Improving Phrase-Based Statistical Translation by Modifying Phrase Extraction and Including Several Features**  
+**Bilingual N-gram Statistical Machine Translation**  
 
 
 **_Jose B Marino, Josep Ma Crego, Patrik Lambert, Rafael Banchs, Adria Gispert, José A. R. Fonollosa, Marta R Costa-Jussa_**  
-**Improving Phrase-Based Statistical Translation by Modifying Phrase Extraction and Including Several Features**  
+**Stochastic translation model based on N-grams of bilingual rows and log-linear combination of characteristics**  
 *PROCESAMIENTO DEL LENGUAJE NATURAL (2005), 69--76*
 
 **_José B Mariño, Josep M\textordfeminine  Crego, Patrik Lambert, Rafael Banchs, Adrià Gispert, José A. R. Fonollosa, Marta R Costa-Jussá_**  
-**Improving Phrase-Based Statistical Translation by Modifying Phrase Extraction and Including Several Features**  
+**Modelo estoc{\'a}stico de traducci{\'o}n basado en N-gramas de tuplas biling{\"u}es y combinaci{\'o}n log-lineal de caracter{\'\i}sticas**  
 *Procesamiento del Lenguaje Natural (2005), 69--76*
 
 **_Marta Ruiz Costa-Jussa, José A. R. Fonollosa_**  
-**Improving Phrase-Based Statistical Translation by Modifying Phrase Extraction and Including Several Features**  
+**Improved techniques for phrase-based translation**  
 *PROCESAMIENTO DEL LENGUAJE NATURAL (2005), 351--356*
 
 
