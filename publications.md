@@ -89,7 +89,7 @@
 *Frontiers in Artificial Intelligence and Applications, 325 (2020), 1978–1981*
 
 **_Marta Ruiz Costa-Jussà_**  
-**AMALEU: Una Representaci{\'o}n Universal del Lenguaje basada en Aprendizaje Autom{\'a}tico**  
+**AMALEU: Una Representación Universal del Lenguaje basada en Aprendizaje Automático**  
 *Procesamiento del lenguaje natural (2020), 105--108*
 
 **_Marta R. Costa-jussà, Carlos Escolano, Christine Basta, Javier Ferrando, Roser Batlle, Ksenia Kharitonova_**  
@@ -185,8 +185,8 @@
 *arXiv preprint arXiv:1905.06596 (2019)*
 
 **_Marta Ruiz Costa-Jussà_**  
-**Dades, m{\`a}quina i {\`e}tica**  
-*Pol\'\itica i prosa (2019), 61--62*
+**Dades, màquina i ètica**  
+*Política i prosa (2019), 61--62*
 
 **_Carlos Segura, Alex Palau, Jordi Luque, Marta R Costa-Jussà, Rafael E Banchs_**  
 **Chatbol, a chatbot for the Spanish “La Liga”**  
@@ -218,7 +218,7 @@
 
 **_Marta R Costa-jussà, Álvaro Nuez, Carlos Segura_**  
 **Experimental research on encoder-decoder architectures with attention for chatbots**  
-*Computaci\'on y Sistemas, 22 (2018)*
+*Computación y Sistemas, 22 (2018)*
 
 **_Marta R. Costa-jussà, José A. R. Fonollosa_**  
 **Combining Phrase and Neural-Based Machine Translation: What Worked and Did Not**  
@@ -265,11 +265,11 @@
 *Applied artificial intelligence, 31 (2017), 288--297*
 
 **_Marta R Costa-Jussà, David Aldón, José A. R. Fonollosa_**  
-**Chinese--spanish neural machine translation enhanced with character and word bitmap fonts**  
+**Chinese–spanish neural machine translation enhanced with character and word bitmap fonts**  
 *Machine Translation, 31 (2017), 35--47*
 
 **_Marta R Costa-Jussá, José A. R. Fonollosa_**  
-**DeepVoice: tecnolog{\'\i}as de aprendizaje profundo aplicadas al procesado de voz y audio**  
+**DeepVoice: tecnologías de aprendizaje profundo aplicadas al procesado de voz y audio**  
 *Procesamiento del Lenguaje Natural, 59 (2017), 117--120*
 
 **_Marta R Costa-jussa, José A. R. Fonollosa_**  
@@ -278,10 +278,10 @@
 
 **_Marta R Costa-jussà, Alexandre Allauzen, Loïc Barrault, Kyunghun Cho, Holger Schwenk_**  
 **Introduction to the special issue on deep learning approaches for machine translation**  
-*Computer Speech \& Language, 46 (2017), 367--373*
+*Computer Speech & Language, 46 (2017), 367--373*
 
 **_Carlos Escolano, Marta Ruiz Costa-Jussà_**  
-**Generaci{\'o}n morfol{\'o}gica con algoritmos de aprendizaje profundo integrada en un sistema de traducci{\'o}n autom{\'a}tica estad{\'\i}stica**  
+**Generación morfológica con algoritmos de aprendizaje profundo integrada en un sistema de traducción automática estadística**  
 *Procesamiento del lenguaje natural (SEPLN) (2017), 107--114*
 
 **_Carlos Escolano, Marta R Costa-jussa_**  
@@ -309,7 +309,7 @@
 *Proceedings of the Sixth Named Entity Workshop (2016)*
 
 **_Marta R. Costa-jussà, Cristina España-Bonet, Pranava Madhyastha, Carlos Escolano, José A. R. Fonollosa_**  
-**[The TALP--UPC Spanish--English WMT Biomedical Task: Bilingual Embeddings and Char-based Neural Language Model Rescoring in a Phrase-based System](https://www.aclweb.org/anthology/W16-2336)**  
+**[The TALP–UPC Spanish–English WMT Biomedical Task: Bilingual Embeddings and Char-based Neural Language Model Rescoring in a Phrase-based System](https://www.aclweb.org/anthology/W16-2336)**  
 *Proceedings of the First Conference on Machine Translation: Volume 2, Shared Task Papers (2016)*
 
 **_Sergio Rodríguez Guasch, Marta R. Costa-jussà_**  
@@ -321,7 +321,7 @@
 *Proceedings of the EAMT 2016 Fifth Workshop on Hybrid Approaches to Translation (HyTra) (2016)*
 
 **_Marta R Costa-Jussà_**  
-**Integraci{\'o}n de Paradigmas de Traducci{\'o}n Autom{\'a}tica (IMTraP)**  
+**Integración de Paradigmas de Traducción Automática (IMTraP)**  
 *Procesamiento del Lenguaje Natural (2016), 135--138*
 
 **_Marta R Costa-jussà, Reinhard Rapp, Patrik Lambert, Kurt Eberle, Rafael E Banchs, Bogdan Babych_**  
@@ -358,7 +358,7 @@
 
 **_Marta R Costa-Jussa, José A. R. Fonollosa_**  
 **Latest trends in hybrid machine translation and its applications**  
-*Computer Speech & Language, 32 (2015), 3--10*
+*Computer Speech     Language, 32 (2015), 3--10*
 
 **_Marta R Costa-Jussa, José A. R. Fonollosa, José B Mariño, Marc Poch, Mireia Farrús_**  
 **A large Spanish-Catalan parallel corpus release for machine translation**  
@@ -366,7 +366,7 @@
 
 **_Marta R Costa-Jussa_**  
 **Segmentation Strategies to Face Morphology Challenges in Brazilian-Portuguese/English Statistical Machine Translation and Its Integration in Cross-Language Information Retrieval**  
-*Computaci\'on y Sistemas, 19 (2015), 357--370*
+*Computación y Sistemas, 19 (2015), 357--370*
 
 **_Marta R Costa-Jussà, Jordi Centelles_**  
 **Description of the Chinese-to-Spanish rule-based machine translation system developed using a hybrid combination of human annotation and statistical techniques**  
@@ -393,7 +393,7 @@
 *International Review of Research in Open and Distributed Learning, 16 (2015), 174--205*
 
 **_Marta Ruiz Costa-Jussà_**  
-**Traducci{\'o}n autom{\'a}tica entre chino y espa{\~n}ol:?` d{\'o}nde estamos?**  
+**Traducción automática entre chino y español:¿ dónde estamos?**  
 *Komputer Sapiens, 1 (2015), 16--19*
 
 
@@ -418,7 +418,7 @@
 
 **_Jordi Centelles, Marta R Costa-Jussà, Rafael E Banchs, Alexander Gelbukh_**  
 **On-line and off-line chinese-portuguese translation service for mobile applications**  
-*Computaci\'on y Sistemas, 18 (2014), 603--610*
+*Computación y Sistemas, 18 (2014), 603--610*
 
 **_Jordi Centelles, Marta Ruiz Costa-Jussà, Rafael E Banchs, Alexander Gelbukh_**  
 **An IR-based strategy for supporting chinese-portuguese translation services in off-line mode**  
@@ -534,7 +534,7 @@
 
 **_José David Pérez, Antonio Bonafonte Cávez, Marta Ruiz Costa-Jussà, Antonio Cardenal, José A. R. Fonollosa, M Asunción Moreno Bilbao, Eva Navas, Eduardo Rodríguez Banga_**  
 **Search engine for multilingual audiovisual contents**  
-*Proceedings: IberSPEECH 2012: VII Jornadas en Tecnolog\'\ia del Habla and III Iberian SLTech Workshop: November 21-23, 2012 Escuela Polit\'ecnica Superior Universidad Aut\'onoma de Madrid, Madrid, Spain (2012)*
+*Proceedings: IberSPEECH 2012: VII Jornadas en Tecnología del Habla and III Iberian SLTech Workshop: November 21-23, 2012 Escuela Politécnica Superior Universidad Autónoma de Madrid, Madrid, Spain (2012)*
 
 **_Marta Ruiz Costa-Jussà, Christian Paz-Trillo, Renata Wassermann_**  
 **Initial approaches on Cross-Lingual Information Retrieval using Statistical Machine Translation on user-queries**  
@@ -545,7 +545,7 @@
 ### 2011
 
 **_Marta R. Costa-jussà, Rafael E. Banchs_**  
-**[The BM-I2R Haitian-Cr\'eole-to-English translation system description for the WMT 2011 evaluation campaign](https://www.aclweb.org/anthology/W11-2156)**  
+**[The BM-I2R Haitian-Créole-to-English translation system description for the WMT 2011 evaluation campaign](https://www.aclweb.org/anthology/W11-2156)**  
 *Proceedings of the Sixth Workshop on Statistical Machine Translation (2011)*
 
 **_Rafael E. Banchs, Marta R. Costa-jussà_**  
@@ -565,7 +565,7 @@
 *Language resources and evaluation, 45 (2011), 165--179*
 
 **_Marta R Costa-Jussá, Carlos Henríquez, Rafael E Banchs, José B Mariño_**  
-**Evaluaci{\'o}n de estrategias para la traducci{\'o}n autom{\'a}tica estad{\'\i}stica de chino a castellano con el ingl{\'e}s como lengua pivote**  
+**Evaluación de estrategias para la traducción automática estadística de chino a castellano con el inglés como lengua pivote**  
 *Procesamiento del lenguaje natural, 47 (2011), 119--126*
 
 **_Marta R Costa-jussa, Rafael E Banchs_**  
@@ -573,7 +573,7 @@
 *Speech and Language Technologies (2011)*
 
 **_Mireia Farrús, Marta R Costa-Jussà, José B Mariño, Marc Poch, Adolfo Hernández, Carlos Henríquez, José AR Fonollosa_**  
-**Overcoming statistical machine translation limitations: error analysis and proposed solutions for the Catalan--Spanish language pair**  
+**Overcoming statistical machine translation limitations: error analysis and proposed solutions for the Catalan–Spanish language pair**  
 *Language resources and evaluation, 45 (2011), 181--208*
 
 **_Marta Ruiz Costa-Jussà, José A. R. Fonollosa_**  
@@ -605,8 +605,8 @@
 *International Conference on Natural Language Processing (2010)*
 
 **_Rafael Enrique Banchs Martínez, Marta Ruiz Costa-Jussà_**  
-**Uso de mapas sem{\'a}nticos para la b{\'u}squeda crosslingue de oraciones paralelas**  
-*Actas del I Congreso Espa\~nol de Recuperaci\'on de Informaci\'on (CERI 2010), Madrid, Espa\~na, 15 y 16 de junio de 2010 (2010)*
+**Uso de mapas semánticos para la búsqueda crosslingue de oraciones paralelas**  
+*Actas del I Congreso Español de Recuperación de Información (CERI 2010), Madrid, España, 15 y 16 de junio de 2010 (2010)*
 
 **_Marta R Costa-Jussá, Vidas Daudaravicius, Rafael E Banchs_**  
 **Using collocation segmentation to extract translation units in a phrase-based statistical machine translation system**  
@@ -653,7 +653,7 @@
 *Proceedings of the Fourth Workshop on Statistical Machine Translation (2009)*
 
 **_Rafael E Branchs, Marta R Costa-Jussá_**  
-**Extracci{\'o}n crossling{\"u}e de documentos usando mapas sem{\'a}nticos no-lineales**  
+**Extracción crosslingüe de documentos usando mapas semánticos no-lineales**  
 *Procesamiento del lenguaje natural, 43 (2009), 169--176*
 
 **_Marta R Costa-Jussa, José A. R. Fonollosa_**  
@@ -662,7 +662,7 @@
 
 **_Marta R Costa-Jussa, José A. R. Fonollosa_**  
 **An Ngram-based reordering model**  
-*Computer Speech \& Language, 23 (2009), 362--375*
+*Computer Speech & Language, 23 (2009), 362--375*
 
 **_Marta R Costa-Jussà, José A. R. Fonollosa_**  
 **Phrase and ngram-based statistical machine translation system combination**  
@@ -697,19 +697,19 @@
 *PROCESAMIENTO DEL LENGUAJE NATURAL (2008), 267--272*
 
 **_Mireia Farrús, Marta R Costa-jussà, Marc Poch, Adolfo Hernández, José B Mariño Acebal_**  
-**N-II: Traductor autom{\'a}tico estad{\'\i}stico basado en N-gramas**  
-*V Jornadas en Tecnolog\'\ia del Habla; 2008 Nov. 12-14; Bilbao (Espa\~na). Bilbao: Universidad del Pa\'\is Vasco; 2008. p. 277-80. (2008)*
+**N-II: Traductor automático estadístico basado en N-gramas**  
+*V Jornadas en Tecnología del Habla; 2008 Nov. 12-14; Bilbao (España). Bilbao: Universidad del País Vasco; 2008. p. 277-80. (2008)*
 
 **_José A. R. Fonollosa_**  
-**Generaci{\'o}n de multiples hip{\'o}tesis ponderadas de reordenamiento para un sistema de traducci{\'o}n autom{\'a}tica estad{\i}stica**  
+**Generación de multiples hipótesis ponderadas de reordenamiento para un sistema de traducción automática estadıstica**  
 *Procesamiento del lenguaje Natural (2008), 267--272*
 
 **_H Li, A Aw, M Zhang, Maxim Khalilov, Marta Ruiz Costa-Jussà, Carlos Alberto Henríquez Quintana, José A. R. Fonollosa, A Hernández, José Bernardo Mariño Acebal, Rafael Enrique Banchs Martínez, others_**  
-**The talp \& i2r smt systems for iwslt 2008**  
+**The talp & i2r smt systems for iwslt 2008**  
 *International Workshop on Spoken Language Translation (2008)*
 
 **_Enrique Montolar, Marta R Costa-Jussà, José A. R. Fonollosa_**  
-**T{\'E}CNICAS ESTAD{\'I}STICAS PARA EL FILTRADO DE UN CORPUS BILING{\"U}E EN TRADUCCI{\'O}N AUTOM{\'A}TICA**  
+**TÉCNICAS ESTADÍSTICAS PARA EL FILTRADO DE UN CORPUS BILINGÜE EN TRADUCCIÓN AUTOMÁTICA**  
 
 
 **_Henrik Schulz, Marta R Costa-Juss, José A. R. Fonollosa_**  
@@ -729,7 +729,7 @@
 *Proceedings of the Second Workshop on Statistical Machine Translation (2007)*
 
 **_Holger Schwenk, Marta R. Costa-jussà, José A. R. Fonollosa_**  
-**[Smooth Bilingual $N$-Gram Translation](https://www.aclweb.org/anthology/D07-1045)**  
+**[Smooth Bilingual N-Gram Translation](https://www.aclweb.org/anthology/D07-1045)**  
 *Proceedings of the 2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL) (2007)*
 
 **_Marta R. Costa-jussà, Josep M. Crego, David Vilar, José A. R. Fonollosa, José B. Mariño, Hermann Ney_**  
@@ -765,7 +765,7 @@
 *International Workshop on Spoken Language Translation (IWSLT) 2006 (2006)*
 
 **_Marta R Costa-jussá, José A. R. Fonollosa_**  
-**Sistema Estad{\'\i}stico de Reordenamiento de Palabras en Traducci{\'o}n Autom{\'a}tica**  
+**Sistema Estadístico de Reordenamiento de Palabras en Traducción Automática**  
 *Procesamiento del Lenguaje Natural (2006), 249--255*
 
 **_Josep M Crego, Adrià de Gispert, Patrik Lambert, Maxim Khalilov, Marta R Costa-jussà, José B Mariño, Rafael E Banchs, José A. R. Fonollosa_**  
@@ -805,7 +805,7 @@
 *Proceedings of the ACL Workshop on Building and Using Parallel Texts (2005)*
 
 **_Marta Ruiz Costa-juss, José A. R. Fonollosa_**  
-**T{\'e}cnicas mejoradas para la traducci{\'o}n basada en frases**  
+**Técnicas mejoradas para la traducción basada en frases**  
 *Procesamiento del Lenguaje Natural, 35 (2005)*
 
 **_Marta R Costa-jussà, José A. R. Fonollosa_**  
@@ -825,7 +825,7 @@
 *PROCESAMIENTO DEL LENGUAJE NATURAL (2005), 69--76*
 
 **_José B Mariño, Josep M\textordfeminine  Crego, Patrik Lambert, Rafael Banchs, Adrià Gispert, José A. R. Fonollosa, Marta R Costa-Jussá_**  
-**Modelo estoc{\'a}stico de traducci{\'o}n basado en N-gramas de tuplas biling{\"u}es y combinaci{\'o}n log-lineal de caracter{\'\i}sticas**  
+**Modelo estocástico de traducción basado en N-gramas de tuplas bilingües y combinación log-lineal de características**  
 *Procesamiento del Lenguaje Natural (2005), 69--76*
 
 **_Marta Ruiz Costa-Jussa, José A. R. Fonollosa_**  
