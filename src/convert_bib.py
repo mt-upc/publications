@@ -4,11 +4,14 @@ from collections import OrderedDict
 from operator import itemgetter 
 from pybtex.database import parse_file
 from pybtex.richtext import Text
+from pylatexenc.latex2text import LatexNodes2Text
 from tqdm import tqdm
 from pathlib import Path
 
 months_abbr = {month.lower(): index for index, month in enumerate(calendar.month_abbr) if month}
 months_full = {month.lower(): index for index, month in enumerate(calendar.month_name) if month}
+
+latex_converter = LatexNodes2Text()
 
 class Citation(object):
     def __init__(self, bib_entry):
@@ -62,19 +65,13 @@ def generate_citations(bib_data) -> list:
 def sort_citations(citations):
     return sorted(citations, key=lambda k: (-k['year'], -k['month'], k['first_author']))
 
-def remove_latex_chars(text) -> str:
-    return text.translate(str.maketrans('', '', "{}"))
-
-def get_formatted_title(element, to_html=False):
-    title = remove_latex_chars(element.title)
-    if to_html:
-        url = '"' + element.url + '"'
-    else:
-        url = element.url
+def get_formatted_title(element):
+    title = latex_converter.latex_to_text(element.title)
+    url = element.url
     return url, title
 
 def get_formatted_journal(element):
-    journal = remove_latex_chars(element.journal)
+    journal = latex_converter.latex_to_text(element.journal)
     if element.volume:
         journal += ', ' + element.volume
     journal += ' (' + element.year + ')'
@@ -83,7 +80,7 @@ def get_formatted_journal(element):
     return journal
 
 def get_formatted_conference(element):
-    conference = remove_latex_chars(element.booktitle)
+    conference = latex_converter.latex_to_text(element.booktitle)
     conference += ' (' + element.year + ')'
     return conference
 
@@ -103,11 +100,11 @@ def save_html(html_file, citations):
             out_file.write(f'<div id="refs" style="width: 92%; margin: 0 auto 0 auto;">\n')
             out_file.write('\t<div class="h-row-container gutters-row-lg-1 gutters-row-md-1 gutters-row-0 gutters-row-v-lg-1 gutters-row-v-md-1 gutters-row-v-1 style-641 style-local-2180-c27 position-relative">\n')
             out_file.write('\t\t<div style="color: #778899 !important;"><strong>{}</strong></div>\n'.format(element['citation'].authors))
-            if element['citation'].url:
-                url, title = get_formatted_title(element['citation'], True)
-                out_file.write('\t\t<div><a href={} target="_blank"><strong>{}</strong></a></div>\n'.format(url, title))
+            url, title = get_formatted_title(element['citation'])
+            if url:
+                out_file.write('\t\t<div><a href="{}" target="_blank"><strong>{}</strong></a></div>\n'.format(url, title))
             else:
-                out_file.write('\t\t<div>{}</div>\n'.format(element['citation'].title))
+                out_file.write('\t\t<div>{}</div>\n'.format(title))
             if element['citation'].journal:
                 out_file.write('\t\t<div style="font-style: italic;">{}</div>\n'.format(get_formatted_journal(element['citation'])))
             elif element['citation'].booktitle:
@@ -127,11 +124,11 @@ def save_md(md_file, citations):
                 out_file.write('### {}\n\n'.format(curr_year))
 
             out_file.write('**_{}_**  \n'.format(element['citation'].authors))
-            if element['citation'].url:
-                url, title = get_formatted_title(element['citation'])
+            url, title = get_formatted_title(element['citation'])
+            if url:
                 out_file.write('**[{}]({})**  \n'.format(title, url))
             else:
-                out_file.write('**{}**  \n'.format(element['citation'].title))
+                out_file.write('**{}**  \n'.format(title))
             if element['citation'].journal:
                 out_file.write('*{}*'.format(get_formatted_journal(element['citation'])))
             elif element['citation'].booktitle:
