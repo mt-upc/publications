@@ -1,3 +1,11 @@
+### 2021
+
+**_Carlos Escolano, Marta R. Costa-jussà, José A. R. Fonollosa, Mikel Artetxe_**  
+**[Multilingual Machine Translation: Closing the Gap between Shared and Language-specific Encoder-Decoders](https://www.aclweb.org/anthology/2021.eacl-main.80)**  
+*Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume (2021)*
+
+
+
 ### 2020
 
 **_Magdalena Biesialska, Katarzyna Biesialska, Marta R. Costa-jussà_**  
@@ -115,10 +123,6 @@
 **_Carlos Escolano, Marta R Costa-jussà, José A. R. Fonollosa, Mikel Artetxe_**  
 **[Training Multilingual Machine Translation by Alternately Freezing Language-Specific Encoders-Decoders](https://arxiv.org/abs/2006.01594)**  
 *arXiv preprint arXiv:2006.01594 (2020)*
-
-**_Carlos Escolano, Marta R Costa-jussà, José A. R. Fonollosa, Mikel Artetxe_**  
-**[Multilingual Machine Translation: Closing the Gap between Shared and Language-specific Encoder-Decoders](https://arxiv.org/abs/2004.06575)**  
-*arXiv preprint arXiv:2004.06575 (2020)*
 
 
 
