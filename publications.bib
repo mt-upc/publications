@@ -468,12 +468,20 @@
     abstract = "The main alternatives nowadays to deal with sequences are Recurrent Neural Networks (RNN) architectures and the Transformer. In this context, Both RNN{'}s and Transformer have been used as an encoder-decoder architecture with multiple layers in each module. Far beyond this, these architectures are the basis for the contextual word embeddings which are revolutionizing most natural language downstream applications. However, intermediate representations in either the RNN or Transformer architectures can be difficult to interpret. To make these layer representations more accessible and meaningful, we introduce a web-based tool that visualizes them both at the sentence and token level. We present three use cases. The first analyses gender issues in contextual word embeddings. The second and third are showing multilingual intermediate representations for sentences and tokens and the evolution of these intermediate representations along with the multiple layers of the decoder and in the context of multilingual machine translation.",
 }
 
-@article{escolano2020multilingual,
-  title={Multilingual Machine Translation: Closing the Gap between Shared and Language-specific Encoder-Decoders},
-  author={Escolano, Carlos and Costa-juss{\`a}, Marta R and Fonollosa, Jos{\'e} A. R. and Artetxe, Mikel},
-  journal={arXiv preprint arXiv:2004.06575},
-  year={2020},
-  url="https://arxiv.org/abs/2004.06575"
+@inproceedings{escolano-etal-2021-multilingual,
+    title = "Multilingual Machine Translation: Closing the Gap between Shared and Language-specific Encoder-Decoders",
+    author = "Escolano, Carlos  and
+      Costa-juss{\`a}, Marta R.  and
+      Fonollosa, Jos{\'e} A. R.  and
+      Artetxe, Mikel",
+    booktitle = "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
+    month = apr,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2021.eacl-main.80",
+    pages = "944--948",
+    abstract = "State-of-the-art multilingual machine translation relies on a universal encoder-decoder, which requires retraining the entire system to add new languages. In this paper, we propose an alternative approach that is based on language-specific encoder-decoders, and can thus be more easily extended to new languages by learning their corresponding modules. So as to encourage a common interlingua representation, we simultaneously train the N initial languages. Our experiments show that the proposed approach outperforms the universal encoder-decoder by 3.28 BLEU points on average, while allowing to add new languages without the need to retrain the rest of the modules. All in all, our work closes the gap between shared and language-specific encoderdecoders, advancing toward modular multilingual machine translation systems that can be flexibly extended in lifelong learning settings.",
 }
 
 @article{escolano2017generacion,
