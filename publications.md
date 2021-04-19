@@ -1,8 +1,20 @@
 ### 2021
 
+**_Christine Basta, Marta R. Costa-jussa_**  
+**[Impact of COVID-19 in Natural Language Processing Publications: a Disaggregated Study in Gender, Contribution and Experience](https://www.aclweb.org/anthology/2021.ltedi-1.1)**  
+*Proceedings of the First Workshop on Language Technology for Equality, Diversity and Inclusion (2021)*
+
 **_Carlos Escolano, Marta R. Costa-jussà, José A. R. Fonollosa, Mikel Artetxe_**  
 **[Multilingual Machine Translation: Closing the Gap between Shared and Language-specific Encoder-Decoders](https://www.aclweb.org/anthology/2021.eacl-main.80)**  
 *Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume (2021)*
+
+**_Noe Casas, Jose A. R. Fonollosa, Marta R. Costa-jussà_**  
+**[Sparsely Factored Neural Machine Translation](https://arxiv.org/abs/2102.08934)**  
+*arXiv preprint arXiv:2102.08934 (2021)*
+
+**_Christian Hardmeier, Marta R. Costa-jussà, Kellie Webster, Will Radford, Su Lin Blodgett_**  
+**[How to Write a Bias Statement: Recommendations for Submissions to the Workshop on Gender Bias in NLP](https://arxiv.org/abs/2104.03026)**  
+*arXiv preprint arXiv:2104.03026 (2021)*
 
 
 
