@@ -1,5 +1,9 @@
 ### 2021
 
+**_Javier Ferrando, Marta R. Costa-jussà_**  
+**[Attention Weights in Transformer NMT Fail Aligning Words Between Sequences but Largely Explain Model Predictions](https://aclanthology.org/2021.findings-emnlp.39)**  
+*Findings of the Association for Computational Linguistics: EMNLP 2021 (2021)*
+
 **_Christine Basta, Marta R. Costa-jussa_**  
 **[Impact of COVID-19 in Natural Language Processing Publications: a Disaggregated Study in Gender, Contribution and Experience](https://www.aclweb.org/anthology/2021.ltedi-1.1)**  
 *Proceedings of the First Workshop on Language Technology for Equality, Diversity and Inclusion (2021)*
