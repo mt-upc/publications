@@ -1,8 +1,16 @@
 ### 2021
 
+**_Carlos Escolano, Ioannis Tsiamas, Christine Basta, Javier Ferrando, Marta R. Costa-jussa, José A. R. Fonollosa_**  
+**[The TALP-UPC Participation in WMT21 News Translation Task: an mBART-based NMT Approach](https://aclanthology.org/2021.wmt-1.6)**  
+*Proceedings of the Sixth Conference on Machine Translation (2021)*
+
 **_Javier Ferrando, Marta R. Costa-jussà_**  
 **[Attention Weights in Transformer NMT Fail Aligning Words Between Sequences but Largely Explain Model Predictions](https://aclanthology.org/2021.findings-emnlp.39)**  
 *Findings of the Association for Computational Linguistics: EMNLP 2021 (2021)*
+
+**_Gerard I. Gállego, Ioannis Tsiamas, Carlos Escolano, José A. R. Fonollosa, Marta R. Costa-jussà_**  
+**[End-to-End Speech Translation with Pre-trained Models and Adapters: UPC at IWSLT 2021](https://aclanthology.org/2021.iwslt-1.11)**  
+*Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021) (2021)*
 
 **_Christine Basta, Marta R. Costa-jussa_**  
 **[Impact of COVID-19 in Natural Language Processing Publications: a Disaggregated Study in Gender, Contribution and Experience](https://www.aclweb.org/anthology/2021.ltedi-1.1)**  
@@ -15,6 +23,10 @@
 **_Noe Casas, Jose A. R. Fonollosa, Marta R. Costa-jussà_**  
 **[Sparsely Factored Neural Machine Translation](https://arxiv.org/abs/2102.08934)**  
 *arXiv preprint arXiv:2102.08934 (2021)*
+
+**_Carlos Escolano, Marta R. Costa-jussà, José A. R. Fonollosa, Carlos Segura_**  
+**Enabling Zero-Shot Multilingual Spoken Language Translation with Language-Specific Encoders and Decoders**  
+*2021 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU) (2021)*
 
 **_Christian Hardmeier, Marta R. Costa-jussà, Kellie Webster, Will Radford, Su Lin Blodgett_**  
 **[How to Write a Bias Statement: Recommendations for Submissions to the Workshop on Gender Bias in NLP](https://arxiv.org/abs/2104.03026)**  
