@@ -1,3 +1,11 @@
+### 2022
+
+**_Oriol Domingo, Marta R. Costa-jussà, Carlos Escolano_**  
+**A multi-task semi-supervised framework for Text2Graph     Graph2Text**  
+
+
+
+
 ### 2021
 
 **_Carlos Escolano, Ioannis Tsiamas, Christine Basta, Javier Ferrando, Marta R. Costa-jussa, José A. R. Fonollosa_**  
