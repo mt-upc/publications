@@ -4,6 +4,10 @@
 **[A multi-task semi-supervised framework for Text2Graph     Graph2Text](https://arxiv.org/abs/2202.06041)**  
 *arXiv preprint arXiv:2202.06041 (2022)*
 
+**_Ioannis Tsiamas, Gerard I Gállego, José AR Fonollosa, Marta R Costa-jussà_**  
+**[SHAS: Approaching optimal Segmentation for End-to-End Speech Translation](https://arxiv.org/abs/2202.04774)**  
+*arXiv preprint arXiv:2202.04774 (2022)*
+
 
 
 ### 2021
