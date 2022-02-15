@@ -1,8 +1,8 @@
 ### 2022
 
 **_Oriol Domingo, Marta R. Costa-jussà, Carlos Escolano_**  
-**A multi-task semi-supervised framework for Text2Graph     Graph2Text**  
-
+**[A multi-task semi-supervised framework for Text2Graph     Graph2Text](https://arxiv.org/abs/2202.06041)**  
+*arXiv preprint arXiv:2202.06041 (2022)*
 
 
 
