@@ -1,3 +1,70 @@
+@article{sant2022multiformer,
+  title={Multiformer: A Head-Configurable Transformer-Based Model for Direct Speech Translation},
+  author={Gerard Sant and Gerard I. G{\'a}llego and Belen Alastruey and Marta Ruiz Costa-juss{\`a}},
+  journal={ArXiv},
+  year={2022},
+  volume={abs/2205.07100}
+}
+
+@inproceedings{tsiamas-etal-2022-pretrained,
+    title = "Pretrained Speech Encoders and Efficient Fine-tuning Methods for Speech Translation: {UPC} at {IWSLT} 2022",
+    author = "Tsiamas, Ioannis  and
+      G{\'a}llego, Gerard I.  and
+      Escolano, Carlos  and
+      Fonollosa, Jos{\'e}  and
+      Costa-juss{\`a}, Marta R.",
+    booktitle = "Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland (in-person and online)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.iwslt-1.23",
+    pages = "265--276",
+    abstract = "This paper describes the submissions of the UPC Machine Translation group to the IWSLT 2022 Offline Speech Translation and Speech-to-Speech Translation tracks. The offline task involves translating English speech to German, Japanese and Chinese text. Our Speech Translation systems are trained end-to-end and are based on large pretrained speech and text models. We use an efficient fine-tuning technique that trains only specific layers of our system, and explore the use of adapter modules for the non-trainable layers. We further investigate the suitability of different speech encoders (wav2vec 2.0, HuBERT) for our models and the impact of knowledge distillation from the Machine Translation model that we use for the decoder (mBART). For segmenting the IWSLT test sets we fine-tune a pretrained audio segmentation model and achieve improvements of 5 BLEU compared to the given segmentation. Our best single model uses HuBERT and parallel adapters and achieves 29.42 BLEU at English-German MuST-C tst-COMMON and 26.77 at IWSLT 2020 test. By ensembling many models, we further increase translation quality to 30.83 BLEU and 27.78 accordingly. Furthermore, our submission for English-Japanese achieves 15.85 and English-Chinese obtains 25.63 BLEU on the MuST-C tst-COMMON sets. Finally, we extend our system to perform English-German Speech-to-Speech Translation with a pretrained Text-to-Speech model.",
+}
+
+@inproceedings{alastruey-etal-2022-locality,
+    title = "On the Locality of Attention in Direct Speech Translation",
+    author = "Alastruey, Belen  and
+      Ferrando, Javier  and
+      G{\'a}llego, Gerard I.  and
+      Costa-juss{\`a}, Marta R.",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-srw.32",
+    pages = "402--412",
+    abstract = "Transformers have achieved state-of-the-art results across multiple NLP tasks. However, the self-attention mechanism complexity scales quadratically with the sequence length, creating an obstacle for tasks involving long sequences, like in the speech domain. In this paper, we discuss the usefulness of self-attention for Direct Speech Translation. First, we analyze the layer-wise token contributions in the self-attention of the encoder, unveiling local diagonal patterns. To prove that some attention weights are avoidable, we propose to substitute the standard self-attention with a local efficient one, setting the amount of context used based on the results of the analysis. With this approach, our model matches the baseline performance, and improves the efficiency by skipping the computation of those weights that standard attention discards.",
+}
+
+@article{escolano2022multilingual,
+  title={Multilingual machine translation: Deep analysis of language-specific encoder-decoders},
+  author={Escolano, Carlos and Costa-juss{\`a}, Marta Ruiz and Fonollosa, Jos{\'e} AR},
+  journal={Journal of Artificial Intelligence Research},
+  volume={73},
+  pages={1535--1552},
+  year={2022}
+}
+
+@article{ferrando2022measuring,
+  title={Measuring the Mixing of Contextual Information in the Transformer},
+  author={Javier Ferrando and Gerard I. G{\'a}llego and Marta Ruiz Costa-juss{\`a}},
+  journal={ArXiv},
+  year={2022},
+  volume={abs/2203.04212}
+}
+
+@inproceedings{costajussa2022genderbias,
+  author={Marta Ruiz Costa-juss{\`a} and Carlos Escolano and Christine Basta and Javier Ferrando and Roser Batlle Roca and Ksenia Kharitonova},
+  title={Gender Bias in Multilingual Neural Machine Translation: The Architecture Matters},
+  booktitle = {Procedings of the 36th AAAI Conference on Artificial Intelligence},
+  month = feb,
+  year = "2022",
+  url={https://www.aaai.org/AAAI22Papers/AISI-2223.CostajussaM.pdf}
+}
+
 @article{tsiamas2022shas,
     title={SHAS: Approaching optimal Segmentation for End-to-End Speech Translation},
     author={Tsiamas, Ioannis and G{\'a}llego, Gerard I and Fonollosa, Jos{\'e} AR and Costa-juss{\`a}, Marta R},
@@ -23,6 +90,20 @@
     number={},
     pages={694-701},
     doi={10.1109/ASRU51503.2021.9688026}}
+
+@inproceedings{rafieian-etal-2021-wmt21,
+    title = "High Frequent In-domain Words Segmentation and Forward Translation for the {WMT}21 Biomedical Task",
+    author = "Rafieian, Bardia  and
+      Costa-jussa, Marta R.",
+    booktitle = "Proceedings of the Sixth Conference on Machine Translation",
+    month = nov,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.wmt-1.87",
+    pages = "863--867",
+    abstract = "This paper reports the optimization of using the out-of-domain data in the Biomedical translation task. We firstly optimized our parallel training dataset using the BabelNet in-domain terminology words. Afterward, to increase the training set, we studied the effects of the out-of-domain data on biomedical translation tasks, and we created a mixture of in-domain and out-of-domain training sets and added more in-domain data using forward translation in the English-Spanish task. Finally, with a simple bpe optimization method, we increased the number of in-domain sub-words in our mixed training set and trained the Transformer model on the generated data. Results show improvements using our proposed method.",
+}
 
 @inproceedings{escolano-etal-2021-wmt21,
     title = "The {TALP}-{UPC} Participation in {WMT}21 News Translation Task: an m{BART}-based {NMT} Approach",
@@ -72,6 +153,14 @@
     doi = "10.18653/v1/2021.iwslt-1.11",
     pages = "110--119",
     abstract = "This paper describes the submission to the IWSLT 2021 offline speech translation task by the UPC Machine Translation group. The task consists of building a system capable of translating English audio recordings extracted from TED talks into German text. Submitted systems can be either cascade or end-to-end and use a custom or given segmentation. Our submission is an end-to-end speech translation system, which combines pre-trained models (Wav2Vec 2.0 and mBART) with coupling modules between the encoder and decoder, and uses an efficient fine-tuning technique, which trains only 20{\%} of its total parameters. We show that adding an Adapter to the system and pre-training it, can increase the convergence speed and the final result, with which we achieve a BLEU score of 27.3 on the MuST-C test set. Our final model is an ensemble that obtains 28.22 BLEU score on the same set. Our submission also uses a custom segmentation algorithm that employs pre-trained Wav2Vec 2.0 for identifying periods of untranscribable text and can bring improvements of 2.5 to 3 BLEU score on the IWSLT 2019 test set, as compared to the result with the given segmentation.",
+}
+
+@article{alastruey2021efficient,
+  title={Efficient Transformer for Direct Speech Translation},
+  author={Belen Alastruey and Gerard I. G{\'a}llego and Marta Ruiz Costa-juss{\`a}},
+  journal={ArXiv},
+  year={2021},
+  volume={abs/2107.03069}
 }
 
 @inproceedings{barrault-etal-2020-findings-first,
