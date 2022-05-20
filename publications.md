@@ -37,7 +37,7 @@
 ### 2021
 
 **_Carlos Escolano, Marta R. Costa-jussà, José A. R. Fonollosa, Carlos Segura_**  
-**Enabling Zero-Shot Multilingual Spoken Language Translation with Language-Specific Encoders and Decoders**  
+**[Enabling Zero-Shot Multilingual Spoken Language Translation with Language-Specific Encoders and Decoders](https://ieeexplore.ieee.org/document/9688026)**  
 *2021 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU) (2021)*
 
 **_Carlos Escolano, Ioannis Tsiamas, Christine Basta, Javier Ferrando, Marta R. Costa-jussa, José A. R. Fonollosa_**  
