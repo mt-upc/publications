@@ -4,17 +4,13 @@
 **[On the Locality of Attention in Direct Speech Translation](https://aclanthology.org/2022.acl-srw.32)**  
 *Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop (2022)*
 
+**_Gerard Sant, Gerard I. Gállego, Belen Alastruey, Marta Ruiz Costa-jussà_**  
+**[Multiformer: A Head-Configurable Transformer-Based Model for Direct Speech Translation](https://arxiv.org/abs/2205.07100)**  
+*arXiv preprint arXiv:2205.07100 (2022)*
+
 **_Ioannis Tsiamas, Gerard I. Gállego, Carlos Escolano, José Fonollosa, Marta R. Costa-jussà_**  
 **[Pretrained Speech Encoders and Efficient Fine-tuning Methods for Speech Translation: UPC at IWSLT 2022](https://aclanthology.org/2022.iwslt-1.23)**  
 *Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022) (2022)*
-
-**_Marta Ruiz Costa-jussà, Carlos Escolano, Christine Basta, Javier Ferrando, Roser Batlle Roca, Ksenia Kharitonova_**  
-**[Interpreting Gender Bias in Neural Machine Translation: Multilingual Architecture Matters](https://www.aaai.org/AAAI22Papers/AISI-2223.CostajussaM.pdf)**  
-*Procedings of the 36th AAAI Conference on Artificial Intelligence (2022)*
-
-**_Oriol Domingo, Marta R. Costa-jussà, Carlos Escolano_**  
-**[A multi-task semi-supervised framework for Text2Graph     Graph2Text](https://arxiv.org/abs/2202.06041)**  
-*arXiv preprint arXiv:2202.06041 (2022)*
 
 **_Carlos Escolano, Marta Ruiz Costa-jussà, José AR Fonollosa_**  
 **[Multilingual machine translation: Deep analysis of language-specific encoder-decoders](https://www.jair.org/index.php/jair/article/view/12699)**  
@@ -24,17 +20,25 @@
 **[Measuring the Mixing of Contextual Information in the Transformer](https://arxiv.org/abs/2203.04212)**  
 *arXiv preprint arXiv:2203.04212 (2022)*
 
-**_Gerard Sant, Gerard I. Gállego, Belen Alastruey, Marta Ruiz Costa-jussà_**  
-**[Multiformer: A Head-Configurable Transformer-Based Model for Direct Speech Translation](https://arxiv.org/abs/2205.07100)**  
-*arXiv preprint arXiv:2205.07100 (2022)*
-
 **_Ioannis Tsiamas, Gerard I Gállego, José AR Fonollosa, Marta R Costa-jussà_**  
 **[SHAS: Approaching optimal Segmentation for End-to-End Speech Translation](https://arxiv.org/abs/2202.04774)**  
 *arXiv preprint arXiv:2202.04774 (2022)*
 
+**_Marta Ruiz Costa-jussà, Carlos Escolano, Christine Basta, Javier Ferrando, Roser Batlle Roca, Ksenia Kharitonova_**  
+**[Interpreting Gender Bias in Neural Machine Translation: Multilingual Architecture Matters](https://www.aaai.org/AAAI22Papers/AISI-2223.CostajussaM.pdf)**  
+*Procedings of the 36th AAAI Conference on Artificial Intelligence (2022)*
+
+**_Oriol Domingo, Marta R. Costa-jussà, Carlos Escolano_**  
+**[A multi-task semi-supervised framework for Text2Graph     Graph2Text](https://arxiv.org/abs/2202.06041)**  
+*arXiv preprint arXiv:2202.06041 (2022)*
+
 
 
 ### 2021
+
+**_Carlos Escolano, Marta R. Costa-jussà, José A. R. Fonollosa, Carlos Segura_**  
+**Enabling Zero-Shot Multilingual Spoken Language Translation with Language-Specific Encoders and Decoders**  
+*2021 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU) (2021)*
 
 **_Carlos Escolano, Ioannis Tsiamas, Christine Basta, Javier Ferrando, Marta R. Costa-jussa, José A. R. Fonollosa_**  
 **[The TALP-UPC Participation in WMT21 News Translation Task: an mBART-based NMT Approach](https://aclanthology.org/2021.wmt-1.6)**  
@@ -52,6 +56,10 @@
 **[End-to-End Speech Translation with Pre-trained Models and Adapters: UPC at IWSLT 2021](https://aclanthology.org/2021.iwslt-1.11)**  
 *Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021) (2021)*
 
+**_Belen Alastruey, Gerard I. Gállego, Marta Ruiz Costa-jussà_**  
+**[Efficient Transformer for Direct Speech Translation](https://arxiv.org/abs/2107.03069)**  
+*arXiv preprint arXiv:2107.03069 (2021)*
+
 **_Christine Basta, Marta R. Costa-jussa_**  
 **[Impact of COVID-19 in Natural Language Processing Publications: a Disaggregated Study in Gender, Contribution and Experience](https://www.aclweb.org/anthology/2021.ltedi-1.1)**  
 *Proceedings of the First Workshop on Language Technology for Equality, Diversity and Inclusion (2021)*
@@ -60,17 +68,9 @@
 **[Multilingual Machine Translation: Closing the Gap between Shared and Language-specific Encoder-Decoders](https://www.aclweb.org/anthology/2021.eacl-main.80)**  
 *Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume (2021)*
 
-**_Belen Alastruey, Gerard I. Gállego, Marta Ruiz Costa-jussà_**  
-**[Efficient Transformer for Direct Speech Translation](https://arxiv.org/abs/2107.03069)**  
-*arXiv preprint arXiv:2107.03069 (2021)*
-
 **_Noe Casas, Jose A. R. Fonollosa, Marta R. Costa-jussà_**  
 **[Sparsely Factored Neural Machine Translation](https://arxiv.org/abs/2102.08934)**  
 *arXiv preprint arXiv:2102.08934 (2021)*
-
-**_Carlos Escolano, Marta R. Costa-jussà, José A. R. Fonollosa, Carlos Segura_**  
-**Enabling Zero-Shot Multilingual Spoken Language Translation with Language-Specific Encoders and Decoders**  
-*2021 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU) (2021)*
 
 **_Christian Hardmeier, Marta R. Costa-jussà, Kellie Webster, Will Radford, Su Lin Blodgett_**  
 **[How to Write a Bias Statement: Recommendations for Submissions to the Workshop on Gender Bias in NLP](https://arxiv.org/abs/2104.03026)**  
