@@ -9,7 +9,7 @@
 *Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022) (2022)*
 
 **_Marta Ruiz Costa-jussà, Carlos Escolano, Christine Basta, Javier Ferrando, Roser Batlle Roca, Ksenia Kharitonova_**  
-**[Gender Bias in Multilingual Neural Machine Translation: The Architecture Matters](https://www.aaai.org/AAAI22Papers/AISI-2223.CostajussaM.pdf)**  
+**[Interpreting Gender Bias in Neural Machine Translation: Multilingual Architecture Matters](https://www.aaai.org/AAAI22Papers/AISI-2223.CostajussaM.pdf)**  
 *Procedings of the 36th AAAI Conference on Artificial Intelligence (2022)*
 
 **_Oriol Domingo, Marta R. Costa-jussà, Carlos Escolano_**  
@@ -17,16 +17,16 @@
 *arXiv preprint arXiv:2202.06041 (2022)*
 
 **_Carlos Escolano, Marta Ruiz Costa-jussà, José AR Fonollosa_**  
-**Multilingual machine translation: Deep analysis of language-specific encoder-decoders**  
+**[Multilingual machine translation: Deep analysis of language-specific encoder-decoders](https://www.jair.org/index.php/jair/article/view/12699)**  
 *Journal of Artificial Intelligence Research, 73 (2022), 1535--1552*
 
 **_Javier Ferrando, Gerard I. Gállego, Marta Ruiz Costa-jussà_**  
-**Measuring the Mixing of Contextual Information in the Transformer**  
-*ArXiv, abs/2203.04212 (2022)*
+**[Measuring the Mixing of Contextual Information in the Transformer](https://arxiv.org/abs/2203.04212)**  
+*arXiv preprint arXiv:2203.04212 (2022)*
 
 **_Gerard Sant, Gerard I. Gállego, Belen Alastruey, Marta Ruiz Costa-jussà_**  
-**Multiformer: A Head-Configurable Transformer-Based Model for Direct Speech Translation**  
-*ArXiv, abs/2205.07100 (2022)*
+**[Multiformer: A Head-Configurable Transformer-Based Model for Direct Speech Translation](https://arxiv.org/abs/2205.07100)**  
+*arXiv preprint arXiv:2205.07100 (2022)*
 
 **_Ioannis Tsiamas, Gerard I Gállego, José AR Fonollosa, Marta R Costa-jussà_**  
 **[SHAS: Approaching optimal Segmentation for End-to-End Speech Translation](https://arxiv.org/abs/2202.04774)**  
@@ -61,8 +61,8 @@
 *Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume (2021)*
 
 **_Belen Alastruey, Gerard I. Gállego, Marta Ruiz Costa-jussà_**  
-**Efficient Transformer for Direct Speech Translation**  
-*ArXiv, abs/2107.03069 (2021)*
+**[Efficient Transformer for Direct Speech Translation](https://arxiv.org/abs/2107.03069)**  
+*arXiv preprint arXiv:2107.03069 (2021)*
 
 **_Noe Casas, Jose A. R. Fonollosa, Marta R. Costa-jussà_**  
 **[Sparsely Factored Neural Machine Translation](https://arxiv.org/abs/2102.08934)**  
@@ -172,10 +172,6 @@
 **AMALEU: Una Representación Universal del Lenguaje basada en Aprendizaje Automático**  
 *Procesamiento del lenguaje natural (2020), 105--108*
 
-**_Marta R. Costa-jussà, Carlos Escolano, Christine Basta, Javier Ferrando, Roser Batlle, Ksenia Kharitonova_**  
-**[Gender Bias in Multilingual Neural Machine Translation: The Architecture Matters](https://arxiv.org/abs/2012.13176)**  
-*arXiv preprint arXiv:2012.13176 (2020)*
-
 **_Marta R. Costa-jussà, Christine Basta, Gerard I. Gállego_**  
 **[Evaluating Gender Bias in Speech Translation](https://arxiv.org/abs/2010.14465)**  
 *arXiv preprint arXiv:2010.14465 (2020)*
@@ -183,10 +179,6 @@
 **_Marta R Costa-jussà, Roger Creus, Oriol Domingo, Albert Domínguez, Miquel Escobar, Cayetana López, Marina Garcia, Margarita Geleta_**  
 **[MT-Adapted Datasheets for Datasets: Template and Repository](https://arxiv.org/abs/2005.13156)**  
 *arXiv preprint arXiv:2005.13156 (2020)*
-
-**_Carlos Escolano, Marta R. Costa-jussà, José A. R. Fonollosa, Carlos Segura_**  
-**[Enabling Zero-shot Multilingual Spoken Language Translation with Language-Specific Encoders and Decoders](https://arxiv.org/abs/2011.01097)**  
-*arXiv preprint arXiv:2011.01097 (2020)*
 
 **_Carlos Escolano, Marta Ruiz Costa-Jussà, José A. R. Fonollosa_**  
 **[From bilingual to multilingual neural-based machine translation by incremental training](https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/asi.24395)**  
