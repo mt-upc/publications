@@ -1,12 +1,16 @@
 ### 2022
 
+**_Gerard Sant, Gerard I. Gállego, Belen Alastruey, Marta Ruiz Costa-jussà_**  
+**[Multiformer: A Head-Configurable Transformer-Based Model for Direct Speech Translation](https://aclanthology.org/2022.naacl-srw.34)**  
+*Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies: Student Research Workshop (2022)*
+
+**_Marta R. Costa-jussà, Christine Basta, Gerard I. Gállego_**  
+**[Evaluating Gender Bias in Speech Translation](https://aclanthology.org/2022.lrec-1.230)**  
+*Proceedings of the Language Resources and Evaluation Conference (2022)*
+
 **_Belen Alastruey, Javier Ferrando, Gerard I. Gállego, Marta R. Costa-jussà_**  
 **[On the Locality of Attention in Direct Speech Translation](https://aclanthology.org/2022.acl-srw.32)**  
 *Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop (2022)*
-
-**_Gerard Sant, Gerard I. Gállego, Belen Alastruey, Marta Ruiz Costa-jussà_**  
-**[Multiformer: A Head-Configurable Transformer-Based Model for Direct Speech Translation](https://arxiv.org/abs/2205.07100)**  
-*arXiv preprint arXiv:2205.07100 (2022)*
 
 **_Ioannis Tsiamas, Gerard I. Gállego, Carlos Escolano, José Fonollosa, Marta R. Costa-jussà_**  
 **[Pretrained Speech Encoders and Efficient Fine-tuning Methods for Speech Translation: UPC at IWSLT 2022](https://aclanthology.org/2022.iwslt-1.23)**  
@@ -171,10 +175,6 @@
 **_Marta Ruiz Costa-Jussà_**  
 **AMALEU: Una Representación Universal del Lenguaje basada en Aprendizaje Automático**  
 *Procesamiento del lenguaje natural (2020), 105--108*
-
-**_Marta R. Costa-jussà, Christine Basta, Gerard I. Gállego_**  
-**[Evaluating Gender Bias in Speech Translation](https://arxiv.org/abs/2010.14465)**  
-*arXiv preprint arXiv:2010.14465 (2020)*
 
 **_Marta R Costa-jussà, Roger Creus, Oriol Domingo, Albert Domínguez, Miquel Escobar, Cayetana López, Marina Garcia, Margarita Geleta_**  
 **[MT-Adapted Datasheets for Datasets: Template and Repository](https://arxiv.org/abs/2005.13156)**  
