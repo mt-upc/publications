@@ -5,7 +5,7 @@
 *Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies: Student Research Workshop (2022)*
 
 **_Marta R. Costa-jussà, Christine Basta, Gerard I. Gállego_**  
-**[Evaluating Gender Bias in Speech Translation](https://aclanthology.org/2022.lrec-1.230)**  
+**[Evaluating Gender Bias in Speech Translation](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.230.pdf)**  
 *Proceedings of the Language Resources and Evaluation Conference (2022)*
 
 **_Belen Alastruey, Javier Ferrando, Gerard I. Gállego, Marta R. Costa-jussà_**  
