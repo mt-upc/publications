@@ -24,10 +24,6 @@
 **[Measuring the Mixing of Contextual Information in the Transformer](https://arxiv.org/abs/2203.04212)**  
 *arXiv preprint arXiv:2203.04212 (2022)*
 
-**_Ioannis Tsiamas, Gerard I Gállego, José AR Fonollosa, Marta R Costa-jussà_**  
-**[SHAS: Approaching optimal Segmentation for End-to-End Speech Translation](https://arxiv.org/abs/2202.04774)**  
-*arXiv preprint arXiv:2202.04774 (2022)*
-
 **_Marta Ruiz Costa-jussà, Carlos Escolano, Christine Basta, Javier Ferrando, Roser Batlle Roca, Ksenia Kharitonova_**  
 **[Interpreting Gender Bias in Neural Machine Translation: Multilingual Architecture Matters](https://www.aaai.org/AAAI22Papers/AISI-2223.CostajussaM.pdf)**  
 *Procedings of the 36th AAAI Conference on Artificial Intelligence (2022)*
@@ -35,6 +31,10 @@
 **_Oriol Domingo, Marta R. Costa-jussà, Carlos Escolano_**  
 **[A multi-task semi-supervised framework for Text2Graph     Graph2Text](https://arxiv.org/abs/2202.06041)**  
 *arXiv preprint arXiv:2202.06041 (2022)*
+
+**_Ioannis Tsiamas, Gerard I. Gállego, José A. R. Fonollosa, Marta R. Costa-jussà_**  
+**SHAS: Approaching optimal Segmentation for End-to-End Speech Translation**  
+*Proc. Interspeech 2022 (2022)*
 
 
 
