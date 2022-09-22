@@ -1,5 +1,9 @@
 ### 2022
 
+**_Ioannis Tsiamas, Gerard I. Gállego, José A. R. Fonollosa, Marta R. Costa-jussà_**  
+**[SHAS: Approaching optimal Segmentation for End-to-End Speech Translation](https://www.isca-speech.org/archive/interspeech_2022/tsiamas22_interspeech.html)**  
+*Proc. Interspeech 2022 (2022)*
+
 **_Gerard Sant, Gerard I. Gállego, Belen Alastruey, Marta Ruiz Costa-jussà_**  
 **[Multiformer: A Head-Configurable Transformer-Based Model for Direct Speech Translation](https://aclanthology.org/2022.naacl-srw.34)**  
 *Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies: Student Research Workshop (2022)*
@@ -31,10 +35,6 @@
 **_Oriol Domingo, Marta R. Costa-jussà, Carlos Escolano_**  
 **[A multi-task semi-supervised framework for Text2Graph     Graph2Text](https://arxiv.org/abs/2202.06041)**  
 *arXiv preprint arXiv:2202.06041 (2022)*
-
-**_Ioannis Tsiamas, Gerard I. Gállego, José A. R. Fonollosa, Marta R. Costa-jussà_**  
-**SHAS: Approaching optimal Segmentation for End-to-End Speech Translation**  
-*Proc. Interspeech 2022 (2022)*
 
 
 
