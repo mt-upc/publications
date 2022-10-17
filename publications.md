@@ -36,6 +36,10 @@
 **[A multi-task semi-supervised framework for Text2Graph     Graph2Text](https://arxiv.org/abs/2202.06041)**  
 *arXiv preprint arXiv:2202.06041 (2022)*
 
+**_Marta R. Costa-jussà, Christine Basta, Oriol Domingo, André Niyongabo Rubungo_**  
+**[OccGen: Selection of Real-world Multilingual Parallel Data Balanced in Gender within Occupations](https://openreview.net/forum?id=tTPVefaATp6)**  
+*Thirty-sixth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (2022)*
+
 
 
 ### 2021
