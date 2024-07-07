@@ -1,3 +1,232 @@
+@misc{ferrando2024primerinnerworkingstransformerbased,
+    title={A Primer on the Inner Workings of Transformer-based Language Models}, 
+    author={Javier Ferrando and Gabriele Sarti and Arianna Bisazza and Marta R. Costa-jussà},
+    year={2024},
+    eprint={2405.00208},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    url={https://arxiv.org/abs/2405.00208}, 
+}
+
+@misc{tsiamas2024pushinglimitszeroshotendtoend,
+    title={Pushing the Limits of Zero-shot End-to-End Speech Translation}, 
+    author={Ioannis Tsiamas and Gerard I. Gállego and José A. R. Fonollosa and Marta R. Costa-jussà},
+    year={2024},
+    eprint={2402.10422},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    url={https://arxiv.org/abs/2402.10422}, 
+}
+
+@inproceedings{alastruey-etal-2024-speechalign-framework,
+    title = "{S}peech{A}lign: A Framework for Speech Translation Alignment Evaluation",
+    author = "Alastruey, Belen  and
+      Sant, Aleix  and
+      G{\'a}llego, Gerard I.  and
+      Dale, David  and
+      Costa-juss{\`a}, Marta R.",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.1316",
+    pages = "15137--15146",
+    abstract = "Speech-to-Speech and Speech-to-Text translation are currently dynamic areas of research. In our commitment to advance these fields, we present SpeechAlign, a framework designed to evaluate the underexplored field of source-target alignment in speech models. The SpeechAlign framework has two core components. First, to tackle the absence of suitable evaluation datasets, we introduce the Speech Gold Alignment dataset, built upon a English-German text translation gold alignment dataset. Secondly, we introduce two novel metrics, Speech Alignment Error Rate (SAER) and Time-weighted Speech Alignment Error Rate (TW-SAER), which enable the evaluation of alignment quality within speech models. While the former gives equal importance to each word, the latter assigns weights based on the length of the words in the speech signal. By publishing SpeechAlign we provide an accessible evaluation framework for model assessment, and we employ it to benchmark open-source Speech Translation models. In doing so, we contribute to the ongoing research progress within the fields of Speech-to-Speech and Speech-to-Text translation.",
+}
+
+@inproceedings{costa-jussa-etal-2023-toxicity,
+    title = "Toxicity in Multilingual Machine Translation at Scale",
+    author = "Costa-juss{\`a}, Marta  and
+      Smith, Eric  and
+      Ropers, Christophe  and
+      Licht, Daniel  and
+      Maillard, Jean  and
+      Ferrando, Javier  and
+      Escolano, Carlos",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.642",
+    doi = "10.18653/v1/2023.findings-emnlp.642",
+    pages = "9570--9586",
+    abstract = "Machine Translation systems can produce different types of errors, some of which are characterized as critical or catastrophic due to the specific negative impact that they can have on users. In this paper we focus on one type of critical error: added toxicity. We evaluate and analyze added toxicity when translating a large evaluation dataset (HOLISTICBIAS, over 472k sentences, covering 13 demographic axes) from English into 164 languages. An automatic toxicity evaluation shows that added toxicity across languages varies from 0{\%} to 5{\%}. The output languages with the most added toxicity tend to be low-resource ones, and the demographic axes with the most added toxicity include sexual orientation, gender and sex, and ability. We also perform human evaluation on a subset of 8 translation directions, confirming the prevalence of true added toxicity. We use a measurement of the amount of source contribution to the translation, where a low source contribution implies hallucination, to interpret what causes toxicity. Making use of the input attributions allows us to explain toxicity, because the source contributions significantly correlate with toxicity for 84{\%} of languages studied. Given our findings, our recommendations to reduce added toxicity are to curate training data to avoid mistranslations, mitigate hallucination and check unstable translations.",
+}
+
+@inproceedings{tsiamas-etal-2023-segaugment,
+    title = "{S}eg{A}ugment: Maximizing the Utility of Speech Translation Data with Segmentation-based Augmentations",
+    author = "Tsiamas, Ioannis  and
+      Fonollosa, Jos{\'e}  and
+      Costa-juss{\`a}, Marta",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.574",
+    doi = "10.18653/v1/2023.findings-emnlp.574",
+    pages = "8569--8588",
+    abstract = "End-to-end Speech Translation is hindered by a lack of available data resources. While most of them are based on documents, a sentence-level version is available, which is however single and static, potentially impeding the usefulness of the data. We propose a new data augmentation strategy, SegAugment, to address this issue by generating multiple alternative sentence-level versions of a dataset. Our method utilizes an Audio Segmentation system, which re-segments the speech of each document with different length constraints, after which we obtain the target text via alignment methods. Experiments demonstrate consistent gains across eight language pairs in MuST-C, with an average increase of 2.5 BLEU points, and up to 5 BLEU for low-resource scenarios in mTEDx. Furthermore, when combined with a strong system, SegAugment obtains state-of-the-art results in MuST-C. Finally, we show that the proposed method can also successfully augment sentence-level datasets, and that it enables Speech Translation models to close the gap between the manual and automatic segmentation at inference time.",
+}
+
+@inproceedings{ferrando-etal-2023-automating,
+    title = "Automating Behavioral Testing in Machine Translation",
+    author = "Ferrando, Javier  and
+      Sperber, Matthias  and
+      Setiawan, Hendra  and
+      Telaar, Dominic  and
+      Hasan, Sa{\v{s}}a",
+    editor = "Koehn, Philipp  and
+      Haddow, Barry  and
+      Kocmi, Tom  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Eighth Conference on Machine Translation",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.wmt-1.97",
+    doi = "10.18653/v1/2023.wmt-1.97",
+    pages = "1014--1030",
+    abstract = "Behavioral testing in NLP allows fine-grained evaluation of systems by examining their linguistic capabilities through the analysis of input-output behavior. Unfortunately, existing work on behavioral testing in Machine Translation (MT) is currently restricted to largely handcrafted tests covering a limited range of capabilities and languages. To address this limitation, we propose to use Large Language Models (LLMs) to generate a diverse set of source sentences tailored to test the behavior of MT models in a range of situations. We can then verify whether the MT model exhibits the expected behavior through matching candidate sets that are also generated using LLMs. Our approach aims to make behavioral testing of MT systems practical while requiring only minimal human effort. In our experiments, we apply our proposed evaluation framework to assess multiple available MT systems, revealing that while in general pass-rates follow the trends observable from traditional accuracy-based metrics, our method was able to uncover several important differences and potential bugs that go unnoticed when relying only on accuracy.",
+}
+
+@misc{carrino2023promotinggeneralizedcrosslingualquestion,
+    title={Promoting Generalized Cross-lingual Question Answering in Few-resource Scenarios via Self-knowledge Distillation}, 
+    author={Casimiro Pio Carrino and Carlos Escolano and José A. R. Fonollosa},
+    year={2023},
+    eprint={2309.17134},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    url={https://arxiv.org/abs/2309.17134}, 
+}
+
+@misc{voita2023neuronslargelanguagemodels,
+    title={Neurons in Large Language Models: Dead, N-gram, Positional}, 
+    author={Elena Voita and Javier Ferrando and Christoforos Nalmpantis},
+    year={2023},
+    eprint={2309.04827},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    url={https://arxiv.org/abs/2309.04827}, 
+}
+
+@inproceedings{sant23_interspeech,
+  author={Gerard Sant and Carlos Escolano},
+  title={{Analysis of Acoustic information in End-to-End Spoken Language Translation}},
+  year=2023,
+  booktitle={Proc. INTERSPEECH 2023},
+  pages={52--56},
+  doi={10.21437/Interspeech.2023-2050},
+  issn={2958-1796}
+}
+
+@inproceedings{torrero-etal-2023-talp,
+    title = "{TALP}-{UPC} at {P}rob{S}um 2023: Fine-tuning and Data Augmentation Strategies for {NER}",
+    author = "Torrero, Neil  and
+      Sant, Gerard  and
+      Escolano, Carlos",
+    editor = "Demner-fushman, Dina  and
+      Ananiadou, Sophia  and
+      Cohen, Kevin",
+    booktitle = "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.bionlp-1.48",
+    doi = "10.18653/v1/2023.bionlp-1.48",
+    pages = "497--502",
+    abstract = "This paper describes the submission of the TALP-UPC team to the Problem List Summarization task from the BioNLP 2023 workshop. This task consists of automatically extracting a list of health issues from the e-health medical record of a given patient. Our submission combines additional steps of data annotationwith finetuning of BERT pre-trained language models. Our experiments focus on the impact of finetuning on different datasets as well as the addition of data augmentation techniques to delay overfitting.",
+}
+
+@inproceedings{tsiamas-etal-2023-speech,
+    title = "Speech Translation with Foundation Models and Optimal Transport: {UPC} at {IWSLT}23",
+    author = "Tsiamas, Ioannis  and
+      I. G{\'a}llego, Gerard  and
+      Fonollosa, Jose  and
+      R. Costa-juss{\'a}, Marta",
+    editor = "Salesky, Elizabeth  and
+      Federico, Marcello  and
+      Carpuat, Marine",
+    booktitle = "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada (in-person and online)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.iwslt-1.38",
+    doi = "10.18653/v1/2023.iwslt-1.38",
+    pages = "397--410",
+    abstract = "This paper describes the submission of the UPC Machine Translation group to the IWSLT 2023 Offline Speech Translation task. Our Speech Translation systems utilize foundation models for speech (wav2vec 2.0) and text (mBART50). We incorporate a Siamese pretraining step of the speech and text encoders with CTC and Optimal Transport, to adapt the speech representations to the space of the text model, thus maximizing transfer learning from MT. After this pretraining, we fine-tune our system end-to-end on ST, with Cross Entropy and Knowledge Distillation. Apart from the available ST corpora, we create synthetic data with SegAugment to better adapt our models to the custom segmentations of the IWSLT test sets. Our best single model obtains 31.2 BLEU points on MuST-C tst-COMMON, 29.8 points on IWLST.tst2020 and 33.4 points on the newly released IWSLT.ACLdev2023.",
+}
+
+@inproceedings{ferrando-etal-2023-explaining,
+    title = "Explaining How Transformers Use Context to Build Predictions",
+    author = "Ferrando, Javier  and
+      G{\'a}llego, Gerard I.  and
+      Tsiamas, Ioannis  and
+      Costa-juss{\`a}, Marta R.",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.301",
+    doi = "10.18653/v1/2023.acl-long.301",
+    pages = "5486--5513",
+    abstract = "Language Generation Models produce words based on the previous context. Although existing methods offer input attributions as explanations for a model{'}s prediction, it is still unclear how prior words affect the model{'}s decision throughout the layers. In this work, we leverage recent advances in explainability of the Transformer and present a procedure to analyze models for language generation. Using contrastive examples, we compare the alignment of our explanations with evidence of the linguistic phenomena, and show that our method consistently aligns better than gradient-based and perturbation-based baselines. Then, we investigate the role of MLPs inside the Transformer and show that they learn features that help the model predict words that are grammatically acceptable. Lastly, we apply our method to Neural Machine Translation models, and demonstrate that they generate human-like source-target alignments for building predictions.",
+}
+
+@inproceedings{10208355,
+  author={Tarrés, Laia and Gállego, Gerard I. and Duarte, Amanda and Torres, Jordi and Giró-i-Nieto, Xavier},
+  booktitle={2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, 
+  title={Sign Language Translation from Instructional Videos}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={5625-5635},
+  keywords={Computer vision;Codes;Computational modeling;Conferences;Gesture recognition;Assistive technologies;Benchmark testing},
+  doi={10.1109/CVPRW59228.2023.00596}}
+
+@inproceedings{10095276,
+    author={Tsiamas, Ioannis and Gállego, Gerard I. and Fonollosa, José A. R. and Costa-jussà, Marta R.},
+    booktitle={ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+    title={Efficient Speech Translation with Dynamic Latent Perceivers}, 
+    year={2023},
+    volume={},
+    number={},
+    pages={1-5},
+    keywords={Training;Costs;Computational modeling;Computer architecture;Signal processing;Transformers;Boosting;Speech Translation;Efficiency;Perceiver},
+    doi={10.1109/ICASSP49357.2023.10095276},
+}
+
+@misc{gilabert2023resetoxrelearningattentionweights,
+    title={ReSeTOX: Re-learning attention weights for toxicity mitigation in machine translation}, 
+    author={Javier García Gilabert and Carlos Escolano and Marta R. Costa-Jussà},
+    year={2023},
+    eprint={2305.11761},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    url={https://arxiv.org/abs/2305.11761}, 
+}
+
 @inproceedings{costajussa22occgen,
     title     = {{OccGen: Selection of Real-world Multilingual Parallel Data Balanced in Gender within Occupations}},
     author    = {Marta R. Costa-juss{\`a} and
@@ -8,6 +237,90 @@
     month     = dec,
     year      = {2022},
     url       = {https://openreview.net/forum?id=tTPVefaATp6}
+}
+
+@inproceedings{tarres-etal-2022-tackling,
+    title = "Tackling Low-Resourced Sign Language Translation: {UPC} at {WMT}-{SLT} 22",
+    author = "Tarres, Laia  and
+      G{\'a}llego, Gerard I.  and
+      Giro-i-nieto, Xavier  and
+      Torres, Jordi",
+    editor = {Koehn, Philipp  and
+      Barrault, Lo{\"\i}c  and
+      Bojar, Ond{\v{r}}ej  and
+      Bougares, Fethi  and
+      Chatterjee, Rajen  and
+      Costa-juss{\`a}, Marta R.  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Fraser, Alexander  and
+      Freitag, Markus  and
+      Graham, Yvette  and
+      Grundkiewicz, Roman  and
+      Guzman, Paco  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Jimeno Yepes, Antonio  and
+      Kocmi, Tom  and
+      Martins, Andr{\'e}  and
+      Morishita, Makoto  and
+      Monz, Christof  and
+      Nagata, Masaaki  and
+      Nakazawa, Toshiaki  and
+      Negri, Matteo  and
+      N{\'e}v{\'e}ol, Aur{\'e}lie  and
+      Neves, Mariana  and
+      Popel, Martin  and
+      Turchi, Marco  and
+      Zampieri, Marcos},
+    booktitle = "Proceedings of the Seventh Conference on Machine Translation (WMT)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.wmt-1.97",
+    pages = "994--1000",
+    abstract = "This paper describes the system developed at the Universitat Polit{\`e}cnica de Catalunya for the Workshop on Machine Translation 2022 Sign Language Translation Task, in particular, for the sign-to-text direction. We use a Transformer model implemented with the Fairseq modeling toolkit. We have experimented with the vocabulary size, data augmentation techniques and pretraining the model with the PHOENIX-14T dataset. Our system obtains 0.50 BLEU score for the test set, improving the organizers{'} baseline by 0.38 BLEU. We remark the poor results for both the baseline and our system, and thus, the unreliability of our findings.",
+}
+
+@inproceedings{ferrando-etal-2022-towards,
+    title = "Towards Opening the Black Box of Neural Machine Translation: Source and Target Interpretations of the Transformer",
+    author = "Ferrando, Javier  and
+      G{\'a}llego, Gerard I.  and
+      Alastruey, Belen  and
+      Escolano, Carlos  and
+      Costa-juss{\`a}, Marta R.",
+    editor = "Goldberg, Yoav  and
+      Kozareva, Zornitsa  and
+      Zhang, Yue",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.599",
+    doi = "10.18653/v1/2022.emnlp-main.599",
+    pages = "8756--8769",
+    abstract = "In Neural Machine Translation (NMT), each token prediction is conditioned on the source sentence and the target prefix (what has been previously translated at a decoding step). However, previous work on interpretability in NMT has mainly focused solely on source sentence tokens{'} attributions. Therefore, we lack a full understanding of the influences of every input token (source sentence and target prefix) in the model predictions. In this work, we propose an interpretability method that tracks input tokens{'} attributions for both contexts. Our method, which can be extended to any encoder-decoder Transformer-based model, allows us to better comprehend the inner workings of current NMT models. We apply the proposed method to both bilingual and multilingual Transformers and present insights into their behaviour.",
+}
+
+@inproceedings{ferrando2022measuring,
+    title = "Measuring the Mixing of Contextual Information in the Transformer",
+    author = "Ferrando, Javier  and
+      G{\'a}llego, Gerard I.  and
+      Costa-juss{\`a}, Marta R.",
+    editor = "Goldberg, Yoav  and
+      Kozareva, Zornitsa  and
+      Zhang, Yue",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.595",
+    doi = "10.18653/v1/2022.emnlp-main.595",
+    pages = "8698--8714",
+    abstract = "The Transformer architecture aggregates input information through the self-attention mechanism, but there is no clear understanding of how this information is mixed across the entire model. Additionally, recent works have demonstrated that attention weights alone are not enough to describe the flow of information. In this paper, we consider the whole attention block {--}multi-head attention, residual connection, and layer normalization{--} and define a metric to measure token-to-token interactions within each layer. Then, we aggregate layer-wise interpretations to provide input attribution scores for model predictions. Experimentally, we show that our method, ALTI (Aggregation of Layer-wise Token-to-token Interactions), provides more faithful explanations and increased robustness than gradient-based methods.",
 }
 
 @inproceedings{tsiamas22_interspeech,
@@ -94,15 +407,6 @@
   year={2022},
   month=apr,
   url = "https://www.jair.org/index.php/jair/article/view/12699",
-}
-
-@article{ferrando2022measuring,
-  title={Measuring the Mixing of Contextual Information in the Transformer},
-  author={Javier Ferrando and Gerard I. G{\'a}llego and Marta Ruiz Costa-juss{\`a}},
-  year={2022},
-  month=mar,
-  journal={arXiv preprint arXiv:2203.04212},
-  url={https://arxiv.org/abs/2203.04212}
 }
 
 @inproceedings{costajussa2022genderbias,
