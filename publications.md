@@ -1,8 +1,88 @@
+### 2024
+
+**_Belen Alastruey, Aleix Sant, Gerard I. Gállego, David Dale, Marta R. Costa-jussà_**  
+**[SpeechAlign: A Framework for Speech Translation Alignment Evaluation](https://aclanthology.org/2024.lrec-main.1316)**  
+*Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024) (2024)*
+
+**_Javier Ferrando, Gabriele Sarti, Arianna Bisazza, Marta R. Costa-jussà_**  
+**[A Primer on the Inner Workings of Transformer-based Language Models](https://arxiv.org/abs/2405.00208)**  
+
+
+**_Ioannis Tsiamas, Gerard I. Gállego, José A. R. Fonollosa, Marta R. Costa-jussà_**  
+**[Pushing the Limits of Zero-shot End-to-End Speech Translation](https://arxiv.org/abs/2402.10422)**  
+
+
+
+
+### 2023
+
+**_Marta Costa-jussà, Eric Smith, Christophe Ropers, Daniel Licht, Jean Maillard, Javier Ferrando, Carlos Escolano_**  
+**[Toxicity in Multilingual Machine Translation at Scale](https://aclanthology.org/2023.findings-emnlp.642)**  
+*Findings of the Association for Computational Linguistics: EMNLP 2023 (2023)*
+
+**_Javier Ferrando, Matthias Sperber, Hendra Setiawan, Dominic Telaar, Saša Hasan_**  
+**[Automating Behavioral Testing in Machine Translation](https://aclanthology.org/2023.wmt-1.97)**  
+*Proceedings of the Eighth Conference on Machine Translation (2023)*
+
+**_Ioannis Tsiamas, José Fonollosa, Marta Costa-jussà_**  
+**[SegAugment: Maximizing the Utility of Speech Translation Data with Segmentation-based Augmentations](https://aclanthology.org/2023.findings-emnlp.574)**  
+*Findings of the Association for Computational Linguistics: EMNLP 2023 (2023)*
+
+**_Javier Ferrando, Gerard I. Gállego, Ioannis Tsiamas, Marta R. Costa-jussà_**  
+**[Explaining How Transformers Use Context to Build Predictions](https://aclanthology.org/2023.acl-long.301)**  
+*Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (2023)*
+
+**_Neil Torrero, Gerard Sant, Carlos Escolano_**  
+**[TALP-UPC at ProbSum 2023: Fine-tuning and Data Augmentation Strategies for NER](https://aclanthology.org/2023.bionlp-1.48)**  
+*The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks (2023)*
+
+**_Ioannis Tsiamas, Gerard I. Gállego, Jose Fonollosa, Marta R. Costa-jussá_**  
+**[Speech Translation with Foundation Models and Optimal Transport: UPC at IWSLT23](https://aclanthology.org/2023.iwslt-1.38)**  
+*Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023) (2023)*
+
+**_Casimiro Pio Carrino, Carlos Escolano, José A. R. Fonollosa_**  
+**[Promoting Generalized Cross-lingual Question Answering in Few-resource Scenarios via Self-knowledge Distillation](https://arxiv.org/abs/2309.17134)**  
+
+
+**_Javier García Gilabert, Carlos Escolano, Marta R. Costa-Jussà_**  
+**[ReSeTOX: Re-learning attention weights for toxicity mitigation in machine translation](https://arxiv.org/abs/2305.11761)**  
+
+
+**_Gerard Sant, Carlos Escolano_**  
+**Analysis of Acoustic information in End-to-End Spoken Language Translation**  
+*Proc. INTERSPEECH 2023 (2023)*
+
+**_Laia Tarrés, Gerard I. Gállego, Amanda Duarte, Jordi Torres, Xavier Giró-i-Nieto_**  
+**Sign Language Translation from Instructional Videos**  
+*2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW) (2023)*
+
+**_Ioannis Tsiamas, Gerard I. Gállego, José A. R. Fonollosa, Marta R. Costa-jussà_**  
+**Efficient Speech Translation with Dynamic Latent Perceivers**  
+*ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (2023)*
+
+**_Elena Voita, Javier Ferrando, Christoforos Nalmpantis_**  
+**[Neurons in Large Language Models: Dead, N-gram, Positional](https://arxiv.org/abs/2309.04827)**  
+
+
+
+
 ### 2022
 
 **_Marta R. Costa-jussà, Christine Basta, Oriol Domingo, André Niyongabo Rubungo_**  
 **[OccGen: Selection of Real-world Multilingual Parallel Data Balanced in Gender within Occupations](https://openreview.net/forum?id=tTPVefaATp6)**  
 *Thirty-sixth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (2022)*
+
+**_Javier Ferrando, Gerard I. Gállego, Belen Alastruey, Carlos Escolano, Marta R. Costa-jussà_**  
+**[Towards Opening the Black Box of Neural Machine Translation: Source and Target Interpretations of the Transformer](https://aclanthology.org/2022.emnlp-main.599)**  
+*Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (2022)*
+
+**_Javier Ferrando, Gerard I. Gállego, Marta R. Costa-jussà_**  
+**[Measuring the Mixing of Contextual Information in the Transformer](https://aclanthology.org/2022.emnlp-main.595)**  
+*Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (2022)*
+
+**_Laia Tarres, Gerard I. Gállego, Xavier Giro-i-nieto, Jordi Torres_**  
+**[Tackling Low-Resourced Sign Language Translation: UPC at WMT-SLT 22](https://aclanthology.org/2022.wmt-1.97)**  
+*Proceedings of the Seventh Conference on Machine Translation (WMT) (2022)*
 
 **_Ioannis Tsiamas, Gerard I. Gállego, José A. R. Fonollosa, Marta R. Costa-jussà_**  
 **[SHAS: Approaching optimal Segmentation for End-to-End Speech Translation](https://www.isca-speech.org/archive/interspeech_2022/tsiamas22_interspeech.html)**  
@@ -27,10 +107,6 @@
 **_Carlos Escolano, Marta Ruiz Costa-jussà, José AR Fonollosa_**  
 **[Multilingual machine translation: Deep analysis of language-specific encoder-decoders](https://www.jair.org/index.php/jair/article/view/12699)**  
 *Journal of Artificial Intelligence Research, 73 (2022), 1535--1552*
-
-**_Javier Ferrando, Gerard I. Gállego, Marta Ruiz Costa-jussà_**  
-**[Measuring the Mixing of Contextual Information in the Transformer](https://arxiv.org/abs/2203.04212)**  
-*arXiv preprint arXiv:2203.04212 (2022)*
 
 **_Marta Ruiz Costa-jussà, Carlos Escolano, Christine Basta, Javier Ferrando, Roser Batlle Roca, Ksenia Kharitonova_**  
 **[Interpreting Gender Bias in Neural Machine Translation: Multilingual Architecture Matters](https://www.aaai.org/AAAI22Papers/AISI-2223.CostajussaM.pdf)**  
